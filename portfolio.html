@@ -1,0 +1,82 @@
+---
+layout: page
+title: Portfolio
+tagline: (new Brain())->getPortfolio();
+group: navigation
+---
+
+<p>
+ Skills / Sectors: <a href="#microcontrollers">Microcontrollers</a>, <a href="#configuration">Configuration</a>, <a href="#gamedev">Game development</a>, <a href="#compsci">Computer security</a>, <a href="#philosophising">Philosophising</a><br />
+ Projects / Teams: <a href="#touchlay">TouchLay</a>, <a href="#touchnet">TouchNet</a>, <a href="#ubuntu">Ubuntu</a>, <a href="#debian">Debian</a>, <a href="#arduino">Arduino</a>
+</p>
+
+<a class="nohref" id="skills"><h3>Skills / Sectors</h3></a>
+<a class="nohref" id="microcontrollers"><h4>Microcontrollers</h4></a>
+<p>
+ In my leisure time I enjoy working with microcontrollers and electrical circuits in general. I use atmel chips most frequently, which is why I know AVR-Assembler best, but I also know PIC- (for PIC chips) and GAS- (for GNU/Linux) Assembler. Additionally, I can program in NASM/MASM too, but my assembler skills might be a bit rusty now, because I started writing my chips in C/C++ and also got familiar with the <a href="http://www.arduino.cc/">Arduino framework</a>. I hate the Arduino IDE, though. It requires java and only works with a graphical user interface, so I decided to create <a href="https://github.com/omnidan/ArduinoPure">ArduinoPure</a>, which lets me compile programs using the Arduino framework with a simple Makefile.
+</p>
+
+<br />
+<a class="nohref" id="configuration"><h4>Configuration</h4></a>
+<p>
+ I love to configure machines, which is why I like open source systems so much. I am very experienced with Debian, which I use as my daily driver, and thus, I also know a lot about Ubuntu, which is based off Debian. My basic cli setup is: zsh, tmux, vim. For my graphical user interface, I use a <a href="https://github.com/omnidan/dwm-dan">customised version of DWM</a> running on an X server. Of course, I listen to music too, which is why I run mpd and ncmpcpp on top of jackaudio. Additionally, I have pulse running on top of jack for compatibility reasons. To connect to the internet via WiFi, I use wicd, but generally I prefer an ethernet connection when it's possible (who doesn't?).
+</p>
+
+<br />
+<a class="nohref" id="gamedev"><h4>Game development</h4></a>
+<p>
+ Game programming is how I got into the world of programming when I was still a child. I coded quite a few rendering engines and learned a lot about OpenGL and SDL. Even though I liked it, this is pretty much the past. I specialised myself in the architecture of programs instead of the graphical output.
+</p>
+
+<br />
+<a class="nohref" id="compsci"><h4>Computer security</h4></a>
+<p>
+ I have done some online courses in computer security and I'm also in quite a few so-called white-hat-hacker groups. White-hat basically means that we specialise in securing systems, instead of exploting them. I'm always trying to keep my code as secure and well-structured as possible.
+</p>
+
+<br />
+<a class="nohref" id="philosophising"><h4>Philosophising</h4></a>
+<p>
+ When I'm with friends or alone in my garden I like to philosophise about various things including Psychology, Physics, Biology and Computer Science. I've put up quite a few theories, which I might or might not release under my <a href="/projects_and_ideas.htm">ideas section</a>.
+</p>
+
+<br /><br /><br />
+<a class="nohref" id="projects"><h3>Projects / Teams</h3></a>
+<a class="nohref" id="touchlay"><h4>TouchLay</h4></a>
+<p>
+ I am the founder of TouchLay and now work mostly as a backend software architect and developer (mainly networking) for my startup.
+ <br />
+ <a class="btn btn-small" href="http://touchlay.com/"><i class="icon-arrow-right"></i> http://touchlay.com/</a><br /><br />
+</p>
+
+<br />
+<a class="nohref" id="touchnet"><h4>TouchNet</h4></a>
+<p>
+ This is the engine that powers the previously mentioned systems. It was also invented, designed and coded by me, and released under the BSD open source license. Feel free to fork the repository and work on it!
+ <br />
+ <a class="btn btn-small" href="https://github.com/omnidan/TouchNet"><i class="icon-arrow-right"></i> https://github.com/omnidan/TouchNet</a><br /><br />
+</p>
+
+<br />
+<a class="nohref" id="ubuntu"><h4>Ubuntu</h4></a>
+<p>
+ In the past, I've been doing a lot for the Ubuntu community. I used to be a member and mentor in many of the Ubuntu teams.That changed around the time when they moved to Unity, but this wasn't even the reason for my resignation. I just got quite busy with studying and my startup, so I decided to quit it. I still have an <a href="http://askubuntu.com/users/8893/omnidan">askubuntu account</a>, which I sometimes check and I am still <a href="http://ubuntuforums.org/member.php?u=1070419">a moderator on ubuntuforums</a>. When I was still active, I used to be a member of the Ubuntu Beginners Team (those who help beginners), a council member of Ubuntu Youth, the leader and re-founder of the Ubuntu Austria LoCo (Local Community) and a mentor in the community. Now I'm only using Debian, which I used before I tried Ubuntu for a few versions (10.04-11.10, if I remember correctly). I don't really have plans on going back to Ubuntu, because of the decisions they make with Unity, but getting a bit more active in the community again would be joyful.
+ <br />
+ <a class="btn btn-small" href="http://www.ubuntu.com/"><i class="icon-arrow-right"></i> http://www.ubuntu.com/</a><br /><br />
+</p>
+
+<br />
+<a class="nohref" id="debian"><h4>Debian</h4></a>
+<p>
+ I'm still a bit active in the Debian community now. I frequently check the mailing lists and from time to time I visit the <a href="http://www.debienna.at/">Debienna in Vienna</a>.
+ <br />
+ <a class="btn btn-small" href="http://www.debian.org/"><i class="icon-arrow-right"></i> http://www.debian.org/</a><br /><br />
+</p>
+
+<br />
+<a class="nohref" id="arduino"><h4>Arduino</h4></a>
+<p>
+ As previously stated, I work a lot with atmel microcontrollers, which are used in Arduino products. I possess an Arduino UNO with an Ethernet shield and use it to prototype some of my chips. I've also created <a href="https://github.com/omnidan/ArduinoPure">ArduinoPure</a>, which is a framework based off the <a href="https://github.com/omnidan/Arduino">Arduino framework</a>. The difference is, it doesn't need the Arduino IDE or any GUI running (I know Arduino released a Makefile, but that's old and only works on older versions of the Arduino framework). You can program with the Arduino framework just like you're used to now! Use "make" to compile the program and "make upload" to upload it to the microcontroller. Of course, you have to change some settings in the Makefile first (set your microcontroller, programmer, etc...). <a href="https://github.com/omnidan/ArduinoPure">ArduinoPure</a> also solved another problem I had with Arduino. It wouldn't upload correctly with my stk500. I think that's because Arduino is based off the stk500 protocol, so it assumes it's the Arduino-version of the stk500 protocol, but it actually is the real stk500. I've always had to compile in the IDE, take the temporary hex file and upload it manually via "avrdude". That was quite annoying. <a href="https://github.com/omnidan/ArduinoPure">ArduinoPure</a> solved all that for me, which is why I started it. It's still actively maintained, also, feel free to fork and help me working on it.
+  <br />
+  <a class="btn btn-small" href="http://www.arduino.cc/"><i class="icon-arrow-right"></i> http://www.arduino.cc/</a><br /><br />
+</p>

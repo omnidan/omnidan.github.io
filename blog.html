@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+tagline: (new Posts())->getPostsByCategory("blog");
+group: navigation
+---
+
+{% for post in site.categories.blog limit: 5 %}
+<div class="well">
+<article>
+
+        <header>
+            <h2><a href="{{ BASE_URL }}{{ post.url }}">{{ post.title }}</a></h2>
+            <span class="date"><i class="icon-time"></i> <time datetime="{{ post.date | date:"%F" }}">{{ post.date | date:"%b %d, %Y" }}</time></span><br/>
+            <span class="category"><i class="icon-tag"></i> {{ post.tags }}</span><br/>
+        </header>
+
+<br />
+
+<p>{{ post.description }}</p>
+
+</article>
+</div>
+{% endfor %}
+
+<a href="{{ BASE_URL }}/archive.html">To see all posts, check out the archive.</a>
