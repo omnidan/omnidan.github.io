@@ -1,50 +1,179 @@
----
-layout: page
-title: Welcome
-tagline: int main(int argc, char *argv[]);
-group: navigation
----
-{% include JB/setup %}
-
-<div class="row-fluid">
-<div class="span2">
-    <img src="http://www.gravatar.com/avatar/6aef44154244dcabdb8ed0a24fec23d3?s=150">
-</div>
-<div class="span10">
-    <p>
-    I'm Daniel Bugl, but some might know me as omnidan, which is my most frequently used nickname, or Daniel0108, which is my old and obsolete nickname.
-    </p><p>
-    I currently work full-time as a student and part-time as an architect for technical structures and software engineer at TouchLay. Well, it's pretty much choose-your-time-to-work-but-follow-deadlines-and-go-to-meetings.
-    </p>
-</div>
-</div>
-
-<br />
-
-<h2>Recent Projects</h2>
-{% for post in site.categories.projects | sort:"date" limit:3 %}
-<div class="well">
-<h3>{{ post.title }}</h3>
-<p>
-{{ post.description }}
-</p>
-<p>
-<a href="{{ BASE_PATH }}{{ post.url }}">Read more</a>
-</p>
-</div>
-{% endfor %}
-
-<br />
-
-<h2>Supporting me</h2>
-<p>
-First of all, you can fork my repositories on github and work on them. It makes me very happy when my projects are being worked on, but I don't have enough time to do so on my own on most projects.
-</p><p>
-Secondly, you can check out and maybe use my products and software, this also makes me happy. It shows me that what I'm doing isn't totally useless.
-</p><p>
-Thirdly, you can give me some feedback. Whether positive or negative, I always enjoy reading good feedback, that means, if you give me a feedback, please elaborate on the subject and explain me why I did something good/bad and how I could do better. 
-</p><p>
-Lastly, you can donate money to me. With this money I can fund new and existing projects.
-<br />
-<a href="http://flattr.com/thing/1148877/Daniel-Bugl" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
-</p>
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Tue Nov 12 2013 15:25:46 GMT+0000 (UTC) -->
+<html data-wf-site="527ff01c3163f3ea310002c6">
+  <head>
+    <meta charset="utf-8">
+    <title>Daniel Bugl</title>
+    <meta name="description" content="A page about me, Daniel Bugl.">
+    <meta name="keywords" content="Daniel,Bugl,TouchLay,Arduino,Microcontrollers,Atmel,Ubuntu,Debian,TUWien">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/danielbugl.webflow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Montserrat:400,700","Droid Sans:400,700","Bitter:400,700"]
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+    <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51d1bb05fc804b2621000001/webclip-slate.png"> 
+    <!-- [if lte IE 9]
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/webflow.js"></script>
+    -->
+    <!-- [if gte IE 10] <!-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
+    <script type="text/javascript" src="js/webflow.js" defer></script>
+    <!-- <![endif]-->
+  </head><body>
+  <header class="section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-4 w-clearfix subfooter-left">
+          <img class="beta-tag" src="images/beta_badge.PNG" width="44" alt="beta_badge.PNG">
+        </div>
+        <div class="w-col w-col-8 nav-column"><a class="nav-link" href="#page-nav-touchlay">TOUCHLAY</a><a class="nav-link" href="#page-nav-projects">PROJECTS</a><a class="nav-link" href="#page-nav-skills">SKILLS</a><a class="nav-link" href="#page-nav-portfolio">Portfolio</a><a class="nav-link"
+          href="#page-nav-contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="section hero">
+    <div class="w-container">
+      <div class="w-row mainframe-container">
+        <div class="w-col w-col-6 hero-container">
+          <img class="hero-avatar" src="images/me.jpeg" width="250" height="250" alt="me.jpeg">
+        </div>
+        <div class="w-col w-col-6 call-to-action">
+          <h1 class="hero-header">Daniel Bugl</h1>
+          <p class="hero-subtitle">software architect and web developer/designer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-clearfix section white" id="page-nav-touchlay">
+    <div class="w-container">
+      <div class="w-row organize-row">
+        <div class="w-col w-col-6">
+          <h2>TouchLay</h2>
+          <p>is my first startup, which specializes in the development of well designed multitouch-devices and applications to simplify the synchronization and presentation of visual data.</p>
+          <div class="w-row">
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+              <a class="w-inline-block nounderline" href="http://stylus.touchlay.com/" target="_blank">
+                <div class="icon-title">Stylus</div>
+                <img src="images/stylus.png" alt="stylus.png">
+              </a>
+            </div>
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+              <a class="w-inline-block nounderline" href="http://touchlay.com/">
+                <div class="icon-title">novaTouch</div>
+                <img src="images/novatouch.JPG" alt="novatouch.JPG">
+              </a>
+            </div>
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 center-image">
+              <div class="icon-title">Aurora</div>
+              <img src="images/22d4fdce-5353-4de5-bc13-74293598e9db_organize-folder.png" width="100" alt="22d4fdce-5353-4de5-bc13-74293598e9db_organize-folder.png">
+            </div>
+          </div>
+        </div>
+        <div class="w-col w-col-6 center">
+          <img src="images/touchlay.png" width="250" alt="touchlay.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section grey shadow-down" id="page-nav-projects">
+    <div class="w-container">
+      <h2>Projects</h2>
+      <div class="w-row projects-row">
+        <div class="w-col w-col-6 w-clearfix">
+          <h3>Shift</h3>
+          <p>simple shift-based time scheduling for busy people</p><a class="projects-link" href="#">http://omnidan.github.io/Shift</a>
+        </div>
+        <div class="w-col w-col-6">
+          <img src="images/screenshot.png" alt="screenshot.png">
+        </div>
+      </div>
+      <div class="w-row projects-row">
+        <div class="w-col w-col-6">
+          <img src="images/screenshot.png" alt="screenshot.png">
+        </div>
+        <div class="w-col w-col-6 w-clearfix projects-right">
+          <h3>simple-code-generator</h3>
+          <p>generates code automatically from models designed in a very simple language (or from C/C++ structs/classes, whichever syntax you prefer). This is based entirely on the approach of model-based-programming and saves a lot of time while keeping
+            the code cleaner</p><a class="projects-link projects-link-right" href="#">http://omnidan.github.io/Shift</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section purple" id="page-nav-skills">
+    <div class="w-container">
+      <h2 class="skills-header">Skills</h2>
+      <div class="skills">
+        <h3 class="skills-header">Software Engineering</h3>
+        <p class="skills-content">I specialised in the design and architecture of programs, especially APIs. I developed the TouchLay Cloud API and the backend for the Aurora operating system. Besides development and design, I also do software packaging.
+          <br>Game programming is how I got into the world of programming when I was still a child. I coded quite a few rendering engines and learned a lot about OpenGL and SDL. Even though I liked it, this is pretty much the past. I specialised myself in
+          the architecture of programs instead of the graphical output.</p>
+      </div>
+      <div class="skills">
+        <h3 class="skills-header">Configuration</h3>
+        <p class="skills-content">I love to configure machines, which is why I like open source systems so much. I am very experienced with Debian, which I use as my main operating system, and Ubuntu. I am also quite familiar with computer security.</p>
+      </div>
+      <div class="skills">
+        <h3 class="skills-header">Microcontrollers</h3>
+        <p class="skills-content">In my leisure time I enjoy working with microcontrollers and electrical circuits in general. I use atmel chips most frequently, which is why I know AVR-Assembler best, but I also know PIC- (for PIC chips) and GAS- (for GNU/Linux) Assembler. Additionally,
+          I can program in NASM/MASM too, but my assembler skills might be a bit rusty now, because I usually write my chips in C/C++ and the Arduino framework. To simplify Arduino development for other chips than the official Arduino ones, I created
+          ArduinoPure, which is a set of Makefiles that compile and flash code using the Arduino framework.</p>
+      </div>
+    </div>
+  </div>
+  <div class="section light-purple" id="page-nav-portfolio">
+    <div class="w-container">
+      <h2 class="skills-header">Portfolio</h2>
+      <div class="skills">
+        <h3 class="skills-header">Ubuntu and Debian</h3>
+        <p class="skills-content">In the past, I've been doing a lot for the Ubuntu community. I used to be a member and mentor in many of the Ubuntu teams.That changed around the time when they moved to Unity, but this wasn't even the reason for my resignation. I just got quite
+          busy with studying and my startup, so I decided to quit it. I still have an askubuntu account, which I sometimes check and I am still a moderator on ubuntuforums. When I was still active, I used to be a member of the Ubuntu Beginners Team (those
+          who help beginners), a council member of Ubuntu Youth, the leader and re-founder of the Ubuntu Austria LoCo (Local Community) and a mentor in the community. Now I'm only using Debian, which I used before I tried Ubuntu for a few versions (10.04-11.10,
+          if I remember correctly). I don't really have plans on going back to Ubuntu, because of the decisions they make with Unity, but getting a bit more active in the community again would be joyful.
+          <br>I'm still a bit active in the Debian community now. I frequently check the mailing lists and from time to time I visit the Debienna in Vienna.</p>
+      </div>
+      <div class="skills">
+        <h3 class="skills-header">Arduino</h3>
+        <p class="skills-content">As previously stated, I work a lot with atmel microcontrollers, which are used in Arduino products. I possess an Arduino UNO with an Ethernet shield and use it to prototype some of my chips. I've also created ArduinoPure, which is a framework
+          based off the Arduino framework. The difference is, it doesn't need the Arduino IDE or any GUI running (I know Arduino released a Makefile, but that's old and only works on older versions of the Arduino framework). You can program with the Arduino
+          framework just like you're used to now! Use "make" to compile the program and "make upload" to upload it to the microcontroller. Of course, you have to change some settings in the Makefile first (set your microcontroller, programmer, etc...).
+          ArduinoPure also solved another problem I had with Arduino. It wouldn't upload correctly with my stk500. I think that's because Arduino is based off the stk500 protocol, so it assumes it's the Arduino-version of the stk500 protocol, but it actually
+          is the real stk500. I've always had to compile in the IDE, take the temporary hex file and upload it manually via "avrdude". That was quite annoying. ArduinoPure solved all that for me, which is why I started it. It's still actively maintained,
+          also, feel free to fork and help me working on it.</p>
+      </div>
+      <div class="skills">
+        <h3 class="skills-header">TU Wien - Researcher</h3>
+        <p class="skills-content">July 2013 – August 2013 (2 months) at Fakultaet fuer Informatik, Favoritenstrasse, Vienna, Austria
+          <br>
+          <br>Research on pretty printing, code beautifying and refactoring as well as model based programming. Development of python-latex, the latex library for python, a latex beautifier and a latex refactoring tool.</p>
+      </div>
+      <div class="skills">
+        <h3 class="skills-header">Jung von Matt - Web Engineer</h3>
+        <p class="skills-content">August 2013 – August 2013 (1 month) at Vienna, Austria
+          <br>
+          <br>Development of management software for various tasks in the advertisement branch. (Banner tool)</p>
+      </div>
+    </div>
+    <div class="section grey" id="page-nav-contact">
+      <div class="w-container contact-container">
+        <h2>Contact</h2>
+        <h3>daniel(dot)bugl(at)touchlay.com</h3>
+      </div>
+    </div>
+  </div>
+  <div class="section grey footer">
+    <div class="w-container">
+      <p class="footer-text">© 2013 Daniel Bugl</p>
+    </div><a class="projects-link footer-link" href="http://webflow.com/?r=8dc5bb3b5b" target="_blank">Developed with Webflow</a>
+  </div>
+</body>
+</html>
