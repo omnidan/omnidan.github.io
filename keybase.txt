@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/omnidan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://omnidan.github.io
+  * I am omnidan (https://keybase.io/omnidan) on keybase.
+  * I have a public key with fingerprint 4C28 58D2 F92A 4FF4 70CA  4C3D 9186 5469 67CE 2A70
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "4c2858d2f92a4ff470ca4c3d9186546967ce2a70",
+            "host": "keybase.io",
+            "key_id": "9186546967ce2a70",
+            "uid": "187b349de1474cefd6f19d49dc6f0500",
+            "username": "omnidan"
+        },
+        "service": {
+            "hostname": "omnidan.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402941824,
+    "expire_in": 157680000,
+    "prev": "1e7be8bd4cf391d48aa4265e48c9dcebc2260ed75e2a915d754e44a62a374180",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.22
+Comment: https://keybase.io/crypto
+
+yML6AnicbZF9UBR1GMfvAkEYiRwtI5BgMck8ZXf53b5c0jAZL016NLxaVOe+/BY2
+dPe6XQ6RVDqvAYRIx5N4y5Mws4CYDFELsmuA0V4w0BxjahilEhgYa6CLkzD3qP5o
+pv1nf/t9Ps/32e/v6QsL0IXqeV/6x0cvRV3Tf/W5t1iX5cbKyxBW5ksRUxlSBBdf
+gigVQJvVJkoqYkIAh1NGiscFGmeAIAAS5RjAJfI0RhFGQNAEyUGcIVHEgBTKir9D
+s2EZBW4UZU3TPiwir6n/wxcvFjCKZBMBzUMMkICDAk8IGM1rAkcIqBFdBBVok5id
+UKPlnZLIMxKyx4Bool3kNLFscfJ/gY0FolpYzP79E1abrMqcvEMrF6qqVTH529VS
+q58vgazlHycLK0q8Fl7rsEObIsoSYsI0klNFvzUGUJwGGIUDAwJ3WUUbtIh+wkgS
+FKo9/jnQ7k8ESRZSLA84IZHGeEAxDMAJIwQUp6WCLIfjBAp50qhdBI0ZtQOAADAE
+ziSSmr8/sQJfkWTEpE1SmQLNUhELJEYttkFkzxeeFwJ1+lBd0JJ7/OvThYbc9+9S
+67rC54McV2Nrsuxni715ypQz8szwloK+khWgZplntMuVixq34Jsa4x3eygv0munZ
+V1c+1u/zlMo3nnSuc6+bMf/8ZtLA3K9B11NJqvtK9q4drz07mt25e+S5ibU39y+d
+cK06tpDWGe6tbh44sPqa86mOZPP46PUzqw5tm/Q5Okcbh9EK8KjhcGz2wr5HcjOl
+xPaoMt/Cw+1/HuDH05YqL1/Y610z2VOZ6iJ+b78cNxU12DaW++nFo5W1gWhGfQl9
+I6fBMXa5nBza+wt0zYsz244rq4MOPbO1ank8vjZ/q/5qxkNIenJYmB6Y51s8L/0w
+GdExvXzk9vBv751MMek/ABF5b+miLdwANRQVE7x+4oqz6iBIT2+q+PBsc1u+8EBK
+sC9ktn76L6bVZ2YiYx8/UjFhPUXBgDzPemeEajuhs7xfFRWRlh8zELJ5rsmStb+X
+aLlZNDueYD6dwBweNAx4PY7XsS/7WzKWnXB90/P8oPHSFCzn8nYvGSuMGzYkRQru
+O7Pnts+N6NkcN11V3eux167Iaagf+i6u8fzB6e7UzBf7pXvffSP6VtPtt2us1U8n
+nX4npW6o4YlkftPXLvbbVp7zxhfVWU8F/xG+slXI7LvF/nSn95OErI8ePHayLSmm
+2xTdfM7uDuzabAXEcfOG2iNO3fae7y92bLhfHzBO/phiOd9Q+Jlj5i7LGZZq
+=ZaxJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/omnidan
+
+==================================================================
