@@ -1,179 +1,294 @@
 <!DOCTYPE html>
-<!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Tue Nov 12 2013 15:25:46 GMT+0000 (UTC) -->
-<html data-wf-site="527ff01c3163f3ea310002c6">
-  <head>
-    <meta charset="utf-8">
-    <title>Daniel Bugl</title>
-    <meta name="description" content="A page about me, Daniel Bugl.">
-    <meta name="keywords" content="Daniel,Bugl,TouchLay,Arduino,Microcontrollers,Atmel,Ubuntu,Debian,TUWien">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/webflow.css">
-    <link rel="stylesheet" type="text/css" href="css/danielbugl.webflow.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ["Montserrat:400,700","Droid Sans:400,700","Bitter:400,700"]
-        }
-      });
-    </script>
-    <link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
-    <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51d1bb05fc804b2621000001/webclip-slate.png"> 
-    <!-- [if lte IE 9]
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/webflow.js"></script>
-    -->
-    <!-- [if gte IE 10] <!-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
-    <script type="text/javascript" src="js/webflow.js" defer></script>
-    <!-- <![endif]-->
-  </head><body>
-  <header class="section">
-    <div class="w-container">
-      <div class="w-row">
-        <div class="w-col w-col-4 w-clearfix subfooter-left">
-          <img class="beta-tag" src="images/beta_badge.PNG" width="44" alt="beta_badge.PNG">
-        </div>
-        <div class="w-col w-col-8 nav-column"><a class="nav-link" href="#page-nav-touchlay">TOUCHLAY</a><a class="nav-link" href="#page-nav-projects">PROJECTS</a><a class="nav-link" href="#page-nav-skills">SKILLS</a><a class="nav-link" href="#page-nav-portfolio">Portfolio</a><a class="nav-link"
-          href="#page-nav-contact">Contact</a>
-        </div>
-      </div>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <title>Daniel Bugl</title>
+
+  <link rel="stylesheet" type="text/css" href="dist/semantic.css">
+  <link rel="stylesheet" type="text/css" href="site.css">
+
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="dist/semantic.js"></script>
+  <script src="site.js"></script>
+</head>
+<body id="home">
+
+  <!-- intro -->
+  <div class="ui fold">
+    <div class="ui intro">
+      <h3 class="ui center aligned header">
+        Daniel Bugl
+      </h3>
+      <h4 class="ui center aligned header">
+        <a href="https://github.com/omnidan"><i class="github icon"></i>omnidan</a>
+        | <a href="https://twitter.com/DanielBugl"><i class="twitter icon"></i>DanielBugl</a>
+        | <a href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i>Daniel Bugl</a>
+      </h4>
+      <h4 class="ui center aligned header">
+        <a href="mailto:daniel.bugl@touchlay.com"><i class="mail outline icon"></i>daniel.bugl@touchlay.com</a></a>
+      </h4>
     </div>
-  </header>
-  <div class="section hero">
-    <div class="w-container">
-      <div class="w-row mainframe-container">
-        <div class="w-col w-col-6 hero-container">
-          <img class="hero-avatar" src="images/me.jpeg" width="250" height="250" alt="me.jpeg">
-        </div>
-        <div class="w-col w-col-6 call-to-action">
-          <h1 class="hero-header">Daniel Bugl</h1>
-          <p class="hero-subtitle">software architect and web developer/designer</p>
-        </div>
-      </div>
+    <div class="ui bottomed medium centered circular bordered image me">
+      <img class="ui medium centered circular image avatar" src="https://avatars0.githubusercontent.com/u/668674?v=3&s=300">
     </div>
   </div>
-  <div class="w-clearfix section white" id="page-nav-touchlay">
-    <div class="w-container">
-      <div class="w-row organize-row">
-        <div class="w-col w-col-6">
-          <h2>TouchLay</h2>
-          <p>is my first startup, which specializes in the development of well designed multitouch-devices and applications to simplify the synchronization and presentation of visual data.</p>
-          <div class="w-row">
-            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-              <a class="w-inline-block nounderline" href="http://stylus.touchlay.com/" target="_blank">
-                <div class="icon-title">Stylus</div>
-                <img src="images/stylus.png" alt="stylus.png">
-              </a>
+  <!-- /intro -->
+
+  <!-- content -->
+  <div class="ui after-fold vertical feature segment">
+    <div class="ui centered page grid">
+
+      <!-- skills -->
+      <div class="sixteen wide column">
+        <div id="skills" class="ui small statistics four columns grid">
+          <div class="column">
+            <div class="teal statistic">
+              <div class="value">
+                great
+              </div>
+              <div class="label">
+                development/programming
+              </div>
             </div>
-            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-              <a class="w-inline-block nounderline" href="http://touchlay.com/">
-                <div class="icon-title">novaTouch</div>
-                <img src="images/novatouch.JPG" alt="novatouch.JPG">
-              </a>
+          </div>
+          <div class="column">
+            <div class="teal statistic">
+              <div class="value">
+                great
+              </div>
+              <div class="label">
+                structure/planning
+              </div>
             </div>
-            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 center-image">
-              <div class="icon-title">Aurora</div>
-              <img src="images/22d4fdce-5353-4de5-bc13-74293598e9db_organize-folder.png" width="100" alt="22d4fdce-5353-4de5-bc13-74293598e9db_organize-folder.png">
+          </div>
+          <div class="column">
+            <div class="green statistic">
+              <div class="value">
+                good
+              </div>
+              <div class="label">
+                design
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="green statistic">
+              <div class="value">
+                good
+              </div>
+              <div class="label">
+                networking
+              </div>
             </div>
           </div>
         </div>
-        <div class="w-col w-col-6 center">
-          <img src="images/touchlay.png" width="250" alt="touchlay.png">
+      </div>
+      <!-- /skills -->
+
+      <!-- projects -->
+      <div class="sixteen wide column">
+        <div id="projects" class="ui three column cards grid">
+          <!-- featured projects -->
+          <div class="column">
+            <div class="ui fluid card">
+              <a class="image" href="https://touchlay.com">
+                <img src="http://i.imgur.com/sXNlMHH.jpg">
+              </a>
+              <div class="content">
+                <a class="header" href="https://touchlay.com">novaTouch</a>
+                <div class="meta">
+                  Business
+                </div>
+                <div class="description">
+                  <p><i>because the first step to your customers is an impressive presentation.</i></p>
+                  <p>Together with the rest of the TouchLay team, we developed and designed the 55" interactive presentation device novaTouch.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <a class="image" href="https://touchlay.com">
+                <img src="http://i.imgur.com/4H4ksJl.png">
+              </a>
+              <div class="content">
+                <a class="header" href="https://touchlay.com">TouchLay Cloud</a>
+                <div class="meta">
+                  Business
+                </div>
+                <div class="description">
+                  <p><i>the easiest way to deploy and manage apps and devices.</i></p>
+                  <p>My team and me specifically crafted the cloud to simplify the whole software development process so you can focus on making your product great.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <a class="image" href="http://coffea.caffeinery.org">
+                <img src="https://dl.pushbulletusercontent.com/e1jo3WDePaUbf2mtCLJyAmkQdDnfCJVM/IMG_20150329_032427~01.jpg">
+              </a>
+              <div class="content">
+                <a class="header" href="http://coffea.caffeinery.org">coffea</a>
+                <div class="meta">
+                  Development/Library
+                </div>
+                <div class="description">
+                  <p><i>event based and extensible irc client library with multi-network support.</i></p>
+                  <p>Many modern communication systems are based on or were inspired by irc (e.g. <a href="https://slack.com/">Slack</a>). This library makes writing programs for irc simple.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /featured projects -->
+
+          <!-- second row projects -->
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
+                <div class="meta">
+                  Project
+                </div>
+                <div class="description">
+                  <p><i>donate a cup of coffee, because coffee helps developers perform.</i></p>
+                  <p>You can donate money with bitcoin, paypal or flattr and pick how many cups of coffee you want to donate (it'll calculate the prices in EUR, USD and BTC/Bitcoin)!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="https://github.com/horacat/horacat-chrome">horacat</a>
+                <div class="meta">
+                  Project
+                </div>
+                <div class="description">
+                  <p><i>simple time tracking for github issues, integrated into github.</i></p>
+                  <p>I love github, but it lacks one function: time tracking. This chrome extension adds that functionality to github and you won't even notice it's not part of it!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="https://github.com/omnidan/git-leaf">git-leaf</a>
+                <div class="meta">
+                  Project
+                </div>
+                <div class="description">
+                  <p><i>simple and beautiful git trees.</i></p>
+                  <p>git-leaf is an application that allows you to view the history of a git repository in a simple and beautiful way.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /second row projects -->
+
+          <!-- third row projects -->
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="http://omnidan.github.io/Shift/">shift</a>
+                <div class="meta">
+                  Project
+                </div>
+                <div class="description">
+                  <p><i>simple shift-based time scheduling for busy people</i></p>
+                  <p>Shift is an application that makes scheduling simple. Schedule your day in shifts, automatically add breaks when they make sense, automatically sort your tasks into shifts, and have your shifts ready when you wake up.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="https://github.com/omnidan/log-simple">log-simple</a>
+                <div class="meta">
+                  Development
+                </div>
+                <div class="description">
+                  <p><i>super simple javascript logging based on console.log with unix terminal colors and iso timestamps.</i></p>
+                  <p>No external dependencies, super lightweight!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <div class="content">
+                <a class="header" href="https://github.com/omnidan/asv">asv</a>
+                <div class="meta">
+                  Development
+                </div>
+                <div class="description">
+                  <p><i><a href="https://github.com/atom/atom-shell">Atom Shell</a> version manager</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /third row projects -->
+
+        </div>
+      </div>
+      <!-- /projects -->
+
+    </div>
+  </div>
+  <!-- /content -->
+
+  <!-- footer -->
+  <div class="ui inverted footer vertical segment">
+    <div class="ui stackable center aligned page grid">
+      <div class="ten wide column">
+        <div class="ui three column center aligned stackable grid">
+          <div class="column">
+            <h5 class="ui inverted header">TouchLay</h5>
+            <div class="ui inverted link list">
+              <a class="item" href="https://touchlay.com">novaTouch</a>
+              <a class="item" href="https://touchlay.com">cloud</a>
+            </div>
+          </div>
+          <div class="column">
+            <h5 class="ui inverted header">Development</h5>
+            <div class="ui inverted link list">
+              <a class="item" href="https://github.com/omnidan/node-emoji">node-emoji</a>
+              <a class="item" href="https://github.com/omnidan/log-simple">log-simple</a>
+              <a class="item" href="https://github.com/caffeinery/coffea">coffea</a>
+              <a class="item" href="https://github.com/omnidan/asv">asv</a>
+            </div>
+          </div>
+          <div class="column">
+            <h5 class="ui inverted header">Other Projects</h5>
+            <div class="ui inverted link list">
+              <a class="item" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
+              <a class="item" href="https://github.com/horacat/horacat-chrome">horacat</a>
+              <a class="item" href="https://github.com/omnidan/git-leaf">git-leaf</a>
+              <a class="item" href="http://omnidan.github.io/Shift/">shift</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="six wide column">
+        <h5 class="ui inverted header">Contact Me</h5>
+        <div class="ui inverted link list">
+          <a class="item" href="mailto:daniel.bugl@touchlay.com"><i class="mail outline icon"></i> daniel.bugl@touchlay.com</a>
+          <a class="item" href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i> Daniel Bugl</a>
+          <a class="item" href="https://twitter.com/DanielBugl"><i class="twitter icon"></i> DanielBugl</a>
+          <a class="item" href="https://github.com/omnidan"><i class="github icon"></i> omnidan</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="section grey shadow-down" id="page-nav-projects">
-    <div class="w-container">
-      <h2>Projects</h2>
-      <div class="w-row projects-row">
-        <div class="w-col w-col-6 w-clearfix">
-          <h3>Shift</h3>
-          <p>simple shift-based time scheduling for busy people</p><a class="projects-link" href="#">http://omnidan.github.io/Shift</a>
-        </div>
-        <div class="w-col w-col-6">
-          <img src="images/screenshot.png" alt="screenshot.png">
-        </div>
-      </div>
-      <div class="w-row projects-row">
-        <div class="w-col w-col-6">
-          <img src="images/screenshot.png" alt="screenshot.png">
-        </div>
-        <div class="w-col w-col-6 w-clearfix projects-right">
-          <h3>simple-code-generator</h3>
-          <p>generates code automatically from models designed in a very simple language (or from C/C++ structs/classes, whichever syntax you prefer). This is based entirely on the approach of model-based-programming and saves a lot of time while keeping
-            the code cleaner</p><a class="projects-link projects-link-right" href="#">http://omnidan.github.io/Shift</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section purple" id="page-nav-skills">
-    <div class="w-container">
-      <h2 class="skills-header">Skills</h2>
-      <div class="skills">
-        <h3 class="skills-header">Software Engineering</h3>
-        <p class="skills-content">I specialised in the design and architecture of programs, especially APIs. I developed the TouchLay Cloud API and the backend for the Aurora operating system. Besides development and design, I also do software packaging.
-          <br>Game programming is how I got into the world of programming when I was still a child. I coded quite a few rendering engines and learned a lot about OpenGL and SDL. Even though I liked it, this is pretty much the past. I specialised myself in
-          the architecture of programs instead of the graphical output.</p>
-      </div>
-      <div class="skills">
-        <h3 class="skills-header">Configuration</h3>
-        <p class="skills-content">I love to configure machines, which is why I like open source systems so much. I am very experienced with Debian, which I use as my main operating system, and Ubuntu. I am also quite familiar with computer security.</p>
-      </div>
-      <div class="skills">
-        <h3 class="skills-header">Microcontrollers</h3>
-        <p class="skills-content">In my leisure time I enjoy working with microcontrollers and electrical circuits in general. I use atmel chips most frequently, which is why I know AVR-Assembler best, but I also know PIC- (for PIC chips) and GAS- (for GNU/Linux) Assembler. Additionally,
-          I can program in NASM/MASM too, but my assembler skills might be a bit rusty now, because I usually write my chips in C/C++ and the Arduino framework. To simplify Arduino development for other chips than the official Arduino ones, I created
-          ArduinoPure, which is a set of Makefiles that compile and flash code using the Arduino framework.</p>
-      </div>
-    </div>
-  </div>
-  <div class="section light-purple" id="page-nav-portfolio">
-    <div class="w-container">
-      <h2 class="skills-header">Portfolio</h2>
-      <div class="skills">
-        <h3 class="skills-header">Ubuntu and Debian</h3>
-        <p class="skills-content">In the past, I've been doing a lot for the Ubuntu community. I used to be a member and mentor in many of the Ubuntu teams.That changed around the time when they moved to Unity, but this wasn't even the reason for my resignation. I just got quite
-          busy with studying and my startup, so I decided to quit it. I still have an askubuntu account, which I sometimes check and I am still a moderator on ubuntuforums. When I was still active, I used to be a member of the Ubuntu Beginners Team (those
-          who help beginners), a council member of Ubuntu Youth, the leader and re-founder of the Ubuntu Austria LoCo (Local Community) and a mentor in the community. Now I'm only using Debian, which I used before I tried Ubuntu for a few versions (10.04-11.10,
-          if I remember correctly). I don't really have plans on going back to Ubuntu, because of the decisions they make with Unity, but getting a bit more active in the community again would be joyful.
-          <br>I'm still a bit active in the Debian community now. I frequently check the mailing lists and from time to time I visit the Debienna in Vienna.</p>
-      </div>
-      <div class="skills">
-        <h3 class="skills-header">Arduino</h3>
-        <p class="skills-content">As previously stated, I work a lot with atmel microcontrollers, which are used in Arduino products. I possess an Arduino UNO with an Ethernet shield and use it to prototype some of my chips. I've also created ArduinoPure, which is a framework
-          based off the Arduino framework. The difference is, it doesn't need the Arduino IDE or any GUI running (I know Arduino released a Makefile, but that's old and only works on older versions of the Arduino framework). You can program with the Arduino
-          framework just like you're used to now! Use "make" to compile the program and "make upload" to upload it to the microcontroller. Of course, you have to change some settings in the Makefile first (set your microcontroller, programmer, etc...).
-          ArduinoPure also solved another problem I had with Arduino. It wouldn't upload correctly with my stk500. I think that's because Arduino is based off the stk500 protocol, so it assumes it's the Arduino-version of the stk500 protocol, but it actually
-          is the real stk500. I've always had to compile in the IDE, take the temporary hex file and upload it manually via "avrdude". That was quite annoying. ArduinoPure solved all that for me, which is why I started it. It's still actively maintained,
-          also, feel free to fork and help me working on it.</p>
-      </div>
-      <div class="skills">
-        <h3 class="skills-header">TU Wien - Researcher</h3>
-        <p class="skills-content">July 2013 – August 2013 (2 months) at Fakultaet fuer Informatik, Favoritenstrasse, Vienna, Austria
-          <br>
-          <br>Research on pretty printing, code beautifying and refactoring as well as model based programming. Development of python-latex, the latex library for python, a latex beautifier and a latex refactoring tool.</p>
-      </div>
-      <div class="skills">
-        <h3 class="skills-header">Jung von Matt - Web Engineer</h3>
-        <p class="skills-content">August 2013 – August 2013 (1 month) at Vienna, Austria
-          <br>
-          <br>Development of management software for various tasks in the advertisement branch. (Banner tool)</p>
-      </div>
-    </div>
-    <div class="section grey" id="page-nav-contact">
-      <div class="w-container contact-container">
-        <h2>Contact</h2>
-        <h3>daniel(dot)bugl(at)touchlay.com</h3>
-      </div>
-    </div>
-  </div>
-  <div class="section grey footer">
-    <div class="w-container">
-      <p class="footer-text">© 2013 Daniel Bugl</p>
-    </div><a class="projects-link footer-link" href="http://webflow.com/?r=8dc5bb3b5b" target="_blank">Developed with Webflow</a>
-  </div>
+  <!-- /footer -->
+
 </body>
 </html>

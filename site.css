@@ -1,0 +1,95 @@
+.ui.header {
+  font-weight: 100;
+}
+
+.statistic {
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.statistic.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.fold {
+  height: 99vh;
+  background: rgb(50, 147, 199);
+}
+
+.ui.intro {
+  position: absolute;
+  top: 25%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.ui.intro a {
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.85);
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ui.intro a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ui.intro h3 {
+  font-size: 6em;
+  color: rgb(255, 255, 255);
+  padding-bottom: 50px;
+}
+
+.ui.intro h4 {
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+}
+
+.after-fold {
+  margin: 0px !important;
+  padding-top: 150px !important;
+}
+
+.ui.bottomed {
+  position: relative;
+  top: 84%;
+}
+
+.me {
+  display: block !important;
+  box-shadow: 0 0 0 1px rgba(39, 41, 43, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+  border: 10px solid white !important;
+  z-index: 1;
+}
+
+.card .image img {
+  height: 270px !important;
+}
