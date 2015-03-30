@@ -101,6 +101,10 @@
   .ui.intro h4 {
     font-size: 1.5em;
   }
+
+  .doubling .column {
+    padding: 0 !important;
+  }
 }
 
 
@@ -115,6 +119,10 @@
 
 #skills {
   padding: 25px;
+}
+
+#projects {
+  padding-left: 7px;
 }
 
 .avatar-container {
