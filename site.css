@@ -7,10 +7,10 @@
   -moz-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .statistic.grayscale {
@@ -102,8 +102,8 @@
     font-size: 1.5em;
   }
 
-  .doubling .column {
-    padding: 0 !important;
+  .doubling.column.statistic {
+    padding: 0;
   }
 }
 
@@ -117,12 +117,13 @@
   height: 270px !important;
 }
 
-#skills {
+.skills {
   padding: 25px;
 }
 
-#projects {
-  padding-left: 7px;
+.projectbox {
+  margin: 0 auto !important;
+  max-width: 912px;
 }
 
 .avatar-container {

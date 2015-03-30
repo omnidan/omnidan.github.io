@@ -1,36 +1,36 @@
-$(document).ready(function () {
+$(window).load(function () {
 
   $(".statistic").addClass("grayscale");
-  $('#projects').css('visibility', 'hidden');
-
-  $(document).scroll(function (){
-    var docScroll = $(document).scrollTop(),
-        boxCntOffset = $("#skills").offset().top - $(window).height() + 100;
-
-    if(docScroll >= boxCntOffset ) {
+  new Waypoint({
+    element: $(".statistics"),
+    offset: '95%',
+    handler: function () {
       setTimeout(function () {
         $(".statistic").removeClass("grayscale");
-      }, 300);
+      }, 100);
     }
   });
 
-  $('#projects .card').each(function () {
-    var elem = $(this);
-    elem.data('projectVisible', false);
-    var boxCntOffset = elem.offset().top - $(window).height() + 25;
-    $(document).scroll(function (){
-      var docScroll = $(document).scrollTop();
-      if (docScroll >= boxCntOffset) {
-        if (!elem.data('projectVisible')) {
-          elem.data('projectVisible', true);
+  // card animation
+  $('.card').css('visibility', 'hidden');
+  $('.card').each(function () {
+    var elem = this;
+    $(elem).data('projectVisible', false);
+    new Waypoint({
+      element: elem,
+      offset: '95%',
+      handler: function () {
+        console.log('visible');
+        if (!$(elem).data('projectVisible')) {
+          $(elem).data('projectVisible', true);
           setTimeout(function () {
-            elem
+            $(elem)
               .transition({
                 animation : 'scale',
                 interval  : 500
               })
             ;
-          }, 300);
+          }, 100);
         }
       }
     });
