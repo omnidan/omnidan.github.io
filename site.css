@@ -23,12 +23,22 @@
   background: rgb(50, 147, 199);
 }
 
+.ui.fold {
+  display: block !important;
+}
+
 .ui.intro {
-  position: absolute;
-  top: 25%;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+  position: relative;
+  display: table !important;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px !important;
+  padding-bottom: 250px !important;
+}
+
+.ui.introbox {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .ui.intro a {
@@ -70,26 +80,48 @@
   padding-top: 10px;
 }
 
-.after-fold {
-  margin: 0px !important;
-  padding-top: 150px !important;
+@media (max-width: 800px) {
+  .ui.intro h4 {
+    font-size: 2.5em;
+  }
 }
 
-.ui.bottomed {
-  position: relative;
-  top: 84%;
+@media (max-width: 700px) {
+  .ui.intro {
+    top: 15%;
+  }
 }
 
-.me {
-  display: block !important;
-  box-shadow: 0 0 0 1px rgba(39, 41, 43, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+@media (max-width: 450px) {
+  .ui.intro h3 {
+    font-size: 4em;
+    padding-bottom: 0;
+  }
+
+  .ui.intro h4 {
+    font-size: 1.5em;
+  }
 }
+
 
 .avatar {
-  border: 10px solid white !important;
+  border: 10px solid white;
   z-index: 1;
 }
 
 .card .image img {
   height: 270px !important;
+}
+
+#skills {
+  padding: 25px;
+}
+
+.avatar-container {
+  margin-top: -190px !important;
+}
+
+
+.feature {
+  margin-top: 0 !important;
 }
