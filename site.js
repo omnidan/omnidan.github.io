@@ -1,37 +1,38 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
   $(".statistic").addClass("grayscale");
-    
-  var projectsVisible = false;
   $('#projects').css('visibility', 'hidden');
 
-  $(document).scroll(function(){
-    var docScroll = $(document).scrollTop(), 
-        boxCntOffset = $("#skills").offset().top - $(window).height() + 100,
-        boxCntOffset2 = $("#projects").offset().top - $(window).height();
-    
-    console.log(docScroll, boxCntOffset, boxCntOffset2);
-    
+  $(document).scroll(function (){
+    var docScroll = $(document).scrollTop(),
+        boxCntOffset = $("#skills").offset().top - $(window).height() + 100;
+
     if(docScroll >= boxCntOffset ) {
       setTimeout(function () {
         $(".statistic").removeClass("grayscale");
       }, 300);
     }
-    
-    if (docScroll >= boxCntOffset2) {
-      if (!projectsVisible) {
-        projectsVisible = true;
-        setTimeout(function () {
-          $('#projects .card')
-            .transition({
-              animation : 'scale',
-              interval  : 200
-            })
-          ;
-        }, 300);
+  });
+
+  $('#projects .card').each(function () {
+    var elem = $(this);
+    elem.data('projectVisible', false);
+    var boxCntOffset = elem.offset().top - $(window).height() + 25;
+    $(document).scroll(function (){
+      var docScroll = $(document).scrollTop();
+      if (docScroll >= boxCntOffset) {
+        if (!elem.data('projectVisible')) {
+          elem.data('projectVisible', true);
+          setTimeout(function () {
+            elem
+              .transition({
+                animation : 'scale',
+                interval  : 500
+              })
+            ;
+          }, 300);
+        }
       }
-    }
+    });
   });
 });
-  
-  
