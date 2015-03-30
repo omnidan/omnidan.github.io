@@ -36,3 +36,13 @@ $(window).load(function () {
     });
   });
 });
+
+$(document).ready(function () {
+  $('.burger').click(function () {
+    $('.burger').toggleClass('clicked');
+    $('.left.sidebar')
+      .sidebar('toggle')
+    ;
+    // TODO: when sidebar is toggled back, also move button back to the burger
+  });
+});

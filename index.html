@@ -17,268 +17,321 @@
 
   <link rel="stylesheet" type="text/css" href="dist/semantic.css">
   <link rel="stylesheet" type="text/css" href="site.css">
+  <link rel="stylesheet" type="text/css" href="hamburger.css">
 
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script src="dist/jquery.waypoints.min.js"></script>
   <script src="dist/semantic.min.js"></script>
   <script src="site.js"></script>
+  <script src="hamburger.js"></script>
 </head>
 <body id="home">
 
-  <!-- intro -->
-  <div class="ui fold">
-    <div class="ui intro">
-      <div class="ui introbox">
-      <h3 class="ui center aligned header">
-        Daniel Bugl
-      </h3>
-      <h4 class="ui center aligned header">
-        <a href="https://github.com/omnidan"><i class="github icon"></i>omnidan</a>
-        | <a href="https://twitter.com/DanielBugl"><i class="twitter icon"></i>DanielBugl</a>
-        | <a href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i>Daniel Bugl</a>
-      </h4>
-      <h4 class="ui center aligned header">
-        <a href="mailto:daniel.bugl@touchlay.com"><i class="mail outline icon"></i> daniel.bugl@touchlay.com</a></a>
-      </h4>
-    </div>
-    </div>
-    <!--<div class="ui bottomed medium centered circular bordered image me">
-      <img class="ui medium centered circular image avatar" src="https://avatars0.githubusercontent.com/u/668674?v=3&s=300">
-    </div>-->
+  <!-- sidebar -->
+  <div class="ui left vertical inverted labeled icon sidebar menu">
+    <a class="item">
+      <i class="home icon"></i>
+      Home
+    </a>
+    <a class="item">
+      <i class="block layout icon"></i>
+      Topics
+    </a>
+    <a class="item">
+      <i class="smile icon"></i>
+      Friends
+    </a>
+    <a class="item">
+      <i class="calendar icon"></i>
+      History
+    </a>
+    <a class="item">
+      <i class="mail icon"></i>
+      Messages
+    </a>
+    <a class="item">
+      <i class="chat icon"></i>
+      Discussions
+    </a>
+    <a class="item">
+      <i class="trophy icon"></i>
+      Achievements
+    </a>
+    <a class="item">
+      <i class="shop icon"></i>
+      Store
+    </a>
+    <a class="item">
+      <i class="settings icon"></i>
+      Settings
+    </a>
   </div>
-  <!-- /intro -->
-  <!-- content -->
-  <div class="ui after-fold vertical feature segment">
-    <!-- avatar -->
-    <div class="ui one column center aligned page grid avatar-container">
-      <div class="column">
-        <img class="ui medium circular image avatar" alt="That's me!" src="https://avatars0.githubusercontent.com/u/668674?v=3&amp;s=300">
+  <!-- /sidebar -->
+  <!-- pusher -->
+  <div class="pusher">
+    <!-- intro -->
+    <div class="ui fold">
+      <div class="ui intro">
+        <div class="burger">
+          <section class="material-design-hamburger">
+            <button class="material-design-hamburger__icon">
+              <span class="material-design-hamburger__layer"></span>
+            </button>
+          </section>
+        </div>
+        <div class="ui introbox">
+        <h3 class="ui center aligned header">
+          Daniel Bugl
+        </h3>
+        <h4 class="ui center aligned header">
+          <a href="https://github.com/omnidan"><i class="github icon"></i>omnidan</a>
+          | <a href="https://twitter.com/DanielBugl"><i class="twitter icon"></i>DanielBugl</a>
+          | <a href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i>Daniel Bugl</a>
+        </h4>
+        <h4 class="ui center aligned header">
+          <a href="mailto:daniel.bugl@touchlay.com"><i class="mail outline icon"></i> daniel.bugl@touchlay.com</a></a>
+        </h4>
       </div>
+      </div>
+      <!--<div class="ui bottomed medium centered circular bordered image me">
+        <img class="ui medium centered circular image avatar" src="https://avatars0.githubusercontent.com/u/668674?v=3&s=300">
+      </div>-->
     </div>
-    <!-- /avatar -->
-    <!-- skills -->
-    <div class="ui small skills statistics grid">
-      <div class="doubling four column row">
+    <!-- /intro -->
+    <!-- content -->
+    <div class="ui after-fold vertical feature segment">
+      <!-- avatar -->
+      <div class="ui one column center aligned page grid avatar-container">
         <div class="column">
-          <div class="teal statistic">
-            <div class="value">
-              great
-            </div>
-            <div class="label">
-              development
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="teal statistic">
-            <div class="value">
-              great
-            </div>
-            <div class="label">
-              structure/planning
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="green statistic">
-            <div class="value">
-              good
-            </div>
-            <div class="label">
-              design
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="green statistic">
-            <div class="value">
-              good
-            </div>
-            <div class="label">
-              networking
-            </div>
-          </div>
+          <img class="ui medium circular image avatar" alt="That's me!" src="https://avatars0.githubusercontent.com/u/668674?v=3&amp;s=300">
         </div>
       </div>
-    </div>
-    <!-- /skills -->
-    <!-- projects -->
-    <div class="ui one column center aligned page grid">
-      <div class="column">
-      <div class="ui cards projectbox">
-        <!-- featured projects -->
-        <div class="card">
-          <a class="image" href="https://touchlay.com">
-            <img src="images/novatouch.jpg" alt="novaTouch photo">
-          </a>
-          <div class="content">
-            <a class="header" href="https://touchlay.com">novaTouch</a>
-            <div class="meta">
-              Business
-            </div>
-            <div class="description">
-              <p><i>because the first step to your customers is an impressive presentation.</i></p>
-              <p>Together with the rest of the TouchLay team, we developed and designed the 55" interactive presentation device novaTouch.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <a class="image" href="https://touchlay.com">
-            <img src="images/cloud.png" alt="cloud on mobile device photo">
-          </a>
-          <div class="content">
-            <a class="header" href="https://touchlay.com">TouchLay Cloud</a>
-            <div class="meta">
-              Business
-            </div>
-            <div class="description">
-              <p><i>the easiest way to deploy and manage apps and devices.</i></p>
-              <p>My team and me specifically crafted the cloud to simplify the whole software development process so you can focus on making your product great.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <a class="image" href="http://coffea.caffeinery.org">
-            <img src="images/coffea.jpg" alt="coffea code photo">
-          </a>
-          <div class="content">
-            <a class="header" href="http://coffea.caffeinery.org">coffea</a>
-            <div class="meta">
-              Development/Library
-            </div>
-            <div class="description">
-              <p><i>event based and extensible irc client library with multi-network support.</i></p>
-              <p>Many modern communication systems are based on or were inspired by irc (e.g. <a href="https://slack.com/">Slack</a>). This library makes writing programs for irc simple.</p>
-            </div>
-          </div>
-        </div>
-        <!-- /featured projects -->
-        <!-- second row projects -->
-        <div class="card">
-          <div class="content">
-            <a class="header" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
-            <div class="meta">
-              Project
-            </div>
-            <div class="description">
-              <p><i>donate a cup of coffee, because coffee helps developers perform.</i></p>
-              <p>You can donate money with bitcoin, paypal or flattr and pick how many cups of coffee you want to donate (it'll calculate the prices in EUR, USD and BTC/Bitcoin)!</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <a class="header" href="https://github.com/horacat/horacat-chrome">horacat</a>
-            <div class="meta">
-              Project
-            </div>
-            <div class="description">
-              <p><i>simple time tracking for github issues, integrated into github.</i></p>
-              <p>I love github, but it lacks one function: time tracking. This chrome extension adds that functionality to github and you won't even notice it's not part of it!</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <a class="header" href="https://github.com/omnidan/git-leaf">git-leaf</a>
-            <div class="meta">
-              Project
-            </div>
-            <div class="description">
-              <p><i>simple and beautiful git trees.</i></p>
-              <p>git-leaf is an application that allows you to view the history of a git repository in a simple and beautiful way.</p>
-            </div>
-          </div>
-        </div>
-        <!-- /second row projects -->
-        <!-- third row projects -->
-        <div class="card">
-          <div class="content">
-            <a class="header" href="http://omnidan.github.io/Shift/">shift</a>
-            <div class="meta">
-              Project
-            </div>
-            <div class="description">
-              <p><i>simple shift-based time scheduling for busy people</i></p>
-              <p>Shift is an application that makes scheduling simple. Schedule your day in shifts, automatically add breaks when they make sense, automatically sort your tasks into shifts, and have your shifts ready when you wake up.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <a class="header" href="https://github.com/omnidan/log-simple">log-simple</a>
-            <div class="meta">
-              Development
-            </div>
-            <div class="description">
-              <p><i>super simple javascript logging based on console.log with unix terminal colors and iso timestamps.</i></p>
-              <p>No external dependencies, super lightweight!</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <a class="header" href="https://github.com/omnidan/asv">asv</a>
-            <div class="meta">
-              Development
-            </div>
-            <div class="description">
-              <p><i><a href="https://github.com/atom/atom-shell">Atom Shell</a> version manager</i></p>
-            </div>
-          </div>
-        </div>
-        <!-- /third row projects -->
-      </div>
-      </div>
-    </div>
-    <!-- /projects -->
-  </div>
-  <!-- /content -->
-  <!-- footer -->
-  <div class="ui inverted footer vertical segment">
-    <div class="ui stackable center aligned page grid">
-      <div class="ten wide column">
-        <div class="ui three column center aligned stackable grid">
+      <!-- /avatar -->
+      <!-- skills -->
+      <div class="ui small skills statistics grid">
+        <div class="doubling four column row">
           <div class="column">
-            <h5 class="ui inverted header">TouchLay</h5>
-            <div class="ui inverted link list">
-              <a class="item" href="https://touchlay.com">novaTouch</a>
-              <a class="item" href="https://touchlay.com">cloud</a>
+            <div class="teal statistic">
+              <div class="value">
+                great
+              </div>
+              <div class="label">
+                development
+              </div>
             </div>
           </div>
           <div class="column">
-            <h5 class="ui inverted header">Development</h5>
-            <div class="ui inverted link list">
-              <a class="item" href="https://github.com/omnidan/node-emoji">node-emoji</a>
-              <a class="item" href="https://github.com/omnidan/log-simple">log-simple</a>
-              <a class="item" href="https://github.com/caffeinery/coffea">coffea</a>
-              <a class="item" href="https://github.com/omnidan/asv">asv</a>
+            <div class="teal statistic">
+              <div class="value">
+                great
+              </div>
+              <div class="label">
+                structure/planning
+              </div>
             </div>
           </div>
           <div class="column">
-            <h5 class="ui inverted header">Other Projects</h5>
-            <div class="ui inverted link list">
-              <a class="item" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
-              <a class="item" href="https://github.com/horacat/horacat-chrome">horacat</a>
-              <a class="item" href="https://github.com/omnidan/git-leaf">git-leaf</a>
-              <a class="item" href="http://omnidan.github.io/Shift/">shift</a>
+            <div class="green statistic">
+              <div class="value">
+                good
+              </div>
+              <div class="label">
+                design
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="green statistic">
+              <div class="value">
+                good
+              </div>
+              <div class="label">
+                networking
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="six wide column">
-        <h5 class="ui inverted header">Contact Me</h5>
-        <div class="ui inverted link list">
-          <a class="item" href="mailto:daniel.bugl@touchlay.com">daniel.bugl@touchlay.com</a>
-          <a class="item" href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i> Daniel Bugl</a>
-          <a class="item" href="https://twitter.com/DanielBugl"><i class="twitter icon"></i> DanielBugl</a>
-          <a class="item" href="https://github.com/omnidan"><i class="github icon"></i> omnidan</a>
+      <!-- /skills -->
+      <!-- projects -->
+      <div class="ui one column center aligned page grid">
+        <div class="column">
+        <div class="ui cards projectbox">
+          <!-- featured projects -->
+          <div class="card">
+            <a class="image" href="https://touchlay.com">
+              <img src="images/novatouch.jpg" alt="novaTouch photo">
+            </a>
+            <div class="content">
+              <a class="header" href="https://touchlay.com">novaTouch</a>
+              <div class="meta">
+                Business
+              </div>
+              <div class="description">
+                <p><i>because the first step to your customers is an impressive presentation.</i></p>
+                <p>Together with the rest of the TouchLay team, we developed and designed the 55" interactive presentation device novaTouch.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a class="image" href="https://touchlay.com">
+              <img src="images/cloud.png" alt="cloud on mobile device photo">
+            </a>
+            <div class="content">
+              <a class="header" href="https://touchlay.com">TouchLay Cloud</a>
+              <div class="meta">
+                Business
+              </div>
+              <div class="description">
+                <p><i>the easiest way to deploy and manage apps and devices.</i></p>
+                <p>My team and me specifically crafted the cloud to simplify the whole software development process so you can focus on making your product great.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a class="image" href="http://coffea.caffeinery.org">
+              <img src="images/coffea.jpg" alt="coffea code photo">
+            </a>
+            <div class="content">
+              <a class="header" href="http://coffea.caffeinery.org">coffea</a>
+              <div class="meta">
+                Development/Library
+              </div>
+              <div class="description">
+                <p><i>event based and extensible irc client library with multi-network support.</i></p>
+                <p>Many modern communication systems are based on or were inspired by irc (e.g. <a href="https://slack.com/">Slack</a>). This library makes writing programs for irc simple.</p>
+              </div>
+            </div>
+          </div>
+          <!-- /featured projects -->
+          <!-- second row projects -->
+          <div class="card">
+            <div class="content">
+              <a class="header" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
+              <div class="meta">
+                Project
+              </div>
+              <div class="description">
+                <p><i>donate a cup of coffee, because coffee helps developers perform.</i></p>
+                <p>You can donate money with bitcoin, paypal or flattr and pick how many cups of coffee you want to donate (it'll calculate the prices in EUR, USD and BTC/Bitcoin)!</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <a class="header" href="https://github.com/horacat/horacat-chrome">horacat</a>
+              <div class="meta">
+                Project
+              </div>
+              <div class="description">
+                <p><i>simple time tracking for github issues, integrated into github.</i></p>
+                <p>I love github, but it lacks one function: time tracking. This chrome extension adds that functionality to github and you won't even notice it's not part of it!</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <a class="header" href="https://github.com/omnidan/git-leaf">git-leaf</a>
+              <div class="meta">
+                Project
+              </div>
+              <div class="description">
+                <p><i>simple and beautiful git trees.</i></p>
+                <p>git-leaf is an application that allows you to view the history of a git repository in a simple and beautiful way.</p>
+              </div>
+            </div>
+          </div>
+          <!-- /second row projects -->
+          <!-- third row projects -->
+          <div class="card">
+            <div class="content">
+              <a class="header" href="http://omnidan.github.io/Shift/">shift</a>
+              <div class="meta">
+                Project
+              </div>
+              <div class="description">
+                <p><i>simple shift-based time scheduling for busy people</i></p>
+                <p>Shift is an application that makes scheduling simple. Schedule your day in shifts, automatically add breaks when they make sense, automatically sort your tasks into shifts, and have your shifts ready when you wake up.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <a class="header" href="https://github.com/omnidan/log-simple">log-simple</a>
+              <div class="meta">
+                Development
+              </div>
+              <div class="description">
+                <p><i>super simple javascript logging based on console.log with unix terminal colors and iso timestamps.</i></p>
+                <p>No external dependencies, super lightweight!</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <a class="header" href="https://github.com/omnidan/asv">asv</a>
+              <div class="meta">
+                Development
+              </div>
+              <div class="description">
+                <p><i><a href="https://github.com/atom/atom-shell">Atom Shell</a> version manager</i></p>
+              </div>
+            </div>
+          </div>
+          <!-- /third row projects -->
+        </div>
+        </div>
+      </div>
+      <!-- /projects -->
+    </div>
+    <!-- /content -->
+    <!-- footer -->
+    <div class="ui inverted footer vertical segment">
+      <div class="ui stackable center aligned page grid">
+        <div class="ten wide column">
+          <div class="ui three column center aligned stackable grid">
+            <div class="column">
+              <h5 class="ui inverted header">TouchLay</h5>
+              <div class="ui inverted link list">
+                <a class="item" href="https://touchlay.com">novaTouch</a>
+                <a class="item" href="https://touchlay.com">cloud</a>
+              </div>
+            </div>
+            <div class="column">
+              <h5 class="ui inverted header">Development</h5>
+              <div class="ui inverted link list">
+                <a class="item" href="https://github.com/omnidan/node-emoji">node-emoji</a>
+                <a class="item" href="https://github.com/omnidan/log-simple">log-simple</a>
+                <a class="item" href="https://github.com/caffeinery/coffea">coffea</a>
+                <a class="item" href="https://github.com/omnidan/asv">asv</a>
+              </div>
+            </div>
+            <div class="column">
+              <h5 class="ui inverted header">Other Projects</h5>
+              <div class="ui inverted link list">
+                <a class="item" href="http://omnidan.github.io/coffeedonate/">coffeedonate</a>
+                <a class="item" href="https://github.com/horacat/horacat-chrome">horacat</a>
+                <a class="item" href="https://github.com/omnidan/git-leaf">git-leaf</a>
+                <a class="item" href="http://omnidan.github.io/Shift/">shift</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="six wide column">
+          <h5 class="ui inverted header">Contact Me</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="mailto:daniel.bugl@touchlay.com">daniel.bugl@touchlay.com</a>
+            <a class="item" href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i> Daniel Bugl</a>
+            <a class="item" href="https://twitter.com/DanielBugl"><i class="twitter icon"></i> DanielBugl</a>
+            <a class="item" href="https://github.com/omnidan"><i class="github icon"></i> omnidan</a>
+          </div>
         </div>
       </div>
     </div>
+    <!-- /footer -->
   </div>
-  <!-- /footer -->
+  <!-- /pusher -->
 
 </body>
 </html>
