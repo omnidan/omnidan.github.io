@@ -1,0 +1,12 @@
+# Site settings
+title: Daniel Bugl
+email: daniel.bugl@touchlay.com
+description: > # this means to ignore newlines until "baseurl:"
+  entrepreneur / web enthusiast / software developer from vienna, austria
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://omnidan.net" # the base hostname & protocol for your site
+twitter_username: DanielBugl
+github_username:  omnidan
+
+# Build settings
+markdown: kramdown

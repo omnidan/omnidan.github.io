@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="home">
+
+    {% include header.html %}
+
+    <!-- intro -->
+    <div class="ui fold">
+      <div class="ui intro">
+        <div class="ui introbox">
+          <h3 class="ui center aligned header">
+            Daniel Bugl
+          </h3>
+          <h4 class="ui center aligned header">
+            entrepreneur / web enthusiast / software developer with too many ideas and not enough time
+          </h4>
+          <h5 class="ui center aligned header">
+            <a href="https://github.com/omnidan"><i class="github icon"></i>omnidan</a>
+            | <a href="https://twitter.com/DanielBugl"><i class="twitter icon"></i>DanielBugl</a>
+            | <a href="https://at.linkedin.com/pub/daniel-bugl/39/aa7/793/en"><i class="linkedin square icon"></i>Daniel Bugl</a>
+          </h5>
+          <h5 class="ui center aligned header">
+            <a href="mailto:daniel.bugl@touchlay.com"><i class="mail outline icon"></i> daniel.bugl@touchlay.com</a></a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- /intro -->
+    <!-- content -->
+    <div class="ui after-fold vertical feature segment">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

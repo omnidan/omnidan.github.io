@@ -40,6 +40,9 @@ $(window).load(function () {
 $(document).ready(function () {
   var sidebarVisible = false;
   var sidebar = $('.left.sidebar');
+
+  sidebar.css('display', 'visible');
+
   sidebar.sidebar({
     onChange: function () {
       var hamburger = document.querySelector('.material-design-hamburger__icon');

@@ -1,3 +1,11 @@
+---
+---
+@charset "utf-8";
+
+body, .pusher {
+  background-color: #1b1c1d !important;
+}
+
 .ui.header {
   font-weight: 100;
 }
@@ -36,12 +44,19 @@
   padding-bottom: 250px !important;
 }
 
+.ui.breadcrumb {
+  background: rgb(50, 147, 199);
+  height: 120px;
+  margin: 0;
+  width: 100%;
+}
+
 .ui.introbox {
   display: table-cell;
   vertical-align: middle;
 }
 
-.ui.intro a {
+.ui.intro a, .sitepath a {
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.85);
   -webkit-transition-timing-function: ease-out;
@@ -54,7 +69,7 @@
   transition: all 0.5s;
 }
 
-.ui.intro a:hover {
+.ui.intro a:hover, .sitepath a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   -webkit-transition-timing-function: ease-in;
@@ -129,6 +144,21 @@
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.sitepath {
+  position: absolute;
+  left: 125px;
+  top: 42px;
+}
+
+.sitepath h4 {
+  font-size: 2.5em;
+}
+
+.sitepath a {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
 }
 
 .burger.clicked {

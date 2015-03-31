@@ -1,0 +1,31 @@
+<header class="site-header">
+  <!-- sidebar -->
+  <nav class="ui left vertical inverted labeled sidebar menu" style="display: none;">
+    <a class="item" href="{{ site.baseurl }}/">
+      <i class="icon home"></i> Front Page
+    </a>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a class="item" href="{{ page.url | prepend: site.baseurl }}">
+        {{ page.title }}
+      </a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+  <!-- /sidebar -->
+  <!-- pusher -->
+  <div class="pusher">
+    <div class="burger">
+      <div class="material-design-hamburger">
+        <button class="material-design-hamburger__icon">
+          <span class="material-design-hamburger__layer">&nbsp;</span>
+        </button>
+      </div>
+    </div>
+    {% if page.title %}
+    <div class="sitepath">
+      <h4><a href="{{ page.url | prepend: site.baseurl }}">{{ site.title }} - {{ page.title }}</a></h4>
+    </div>
+    {% endif %}
+
+</header>
