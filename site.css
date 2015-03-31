@@ -143,6 +143,13 @@
   transition: all 0.5s;
 }
 
+.item {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 20px !important;
+  font-weight: 100;
+}
+
 @media (max-width: 1150px) {
   .projectbox {
     max-width: 608px;
