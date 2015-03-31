@@ -70,13 +70,13 @@
 .ui.intro h3 {
   font-size: 6em;
   color: rgb(255, 255, 255);
+  padding-top: 50px;
 }
 
 .ui.intro h4 {
   font-size: 2em;
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.75);
-  padding-bottom: 50px;
 }
 
 .ui.intro h5 {
@@ -85,38 +85,6 @@
   color: rgba(255, 255, 255, 0.5);
   padding-top: 10px;
 }
-
-@media (max-width: 800px) {
-  .ui.intro h4 {
-    font-size: 1.5em;
-  }
-
-  .ui.intro h5 {
-    font-size: 2.5em;
-  }
-}
-
-@media (max-width: 700px) {
-  .ui.intro {
-    top: 15%;
-  }
-}
-
-@media (max-width: 450px) {
-  .ui.intro h3 {
-    font-size: 4em;
-    padding-bottom: 0;
-  }
-
-  .ui.intro h4 {
-    font-size: 1.5em;
-  }
-
-  .doubling.column.statistic {
-    padding: 0;
-  }
-}
-
 
 .avatar {
   border: 10px solid white;
@@ -173,4 +141,56 @@
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+
+@media (max-width: 800px) {
+  .ui.intro h4 {
+    font-size: 1.5em;
+  }
+
+  .ui.intro h5 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  .ui.intro {
+    top: 15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .ui.intro h3 {
+    font-size: 3em;
+    padding-bottom: 0;
+  }
+
+  .ui.intro h4 {
+    margin-top: 0;
+    font-size: 1em;
+  }
+
+  .ui.intro h5 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+
+  .doubling.column.statistic {
+    padding: 0;
+  }
+
+  .burger {
+    position: absolute;
+    top: -20px;
+    left: 10px !important;
+  }
+
+  .avatar {
+    width: 150px !important;
+  }
+
+  .avatar-container {
+    margin-top: -110px !important;
+  }
 }
