@@ -38,11 +38,30 @@ $(window).load(function () {
 });
 
 $(document).ready(function () {
+  var sidebarVisible = false;
+  var sidebar = $('.left.sidebar');
+  sidebar.sidebar({
+    onChange: function () {
+      var hamburger = document.querySelector('.material-design-hamburger__icon');
+      var child = hamburger.childNodes[1].classList;
+
+      if (child.contains('material-design-hamburger__icon--to-arrow')) {
+        child.remove('material-design-hamburger__icon--to-arrow');
+        child.add('material-design-hamburger__icon--from-arrow');
+      } else {
+        child.remove('material-design-hamburger__icon--from-arrow');
+        child.add('material-design-hamburger__icon--to-arrow');
+      }
+    },
+    onShow: function () {
+      sidebarVisible = true;
+    },
+    onHidden: function () {
+      sidebarVisible = false;
+    }
+  });
+
   $('.burger').click(function () {
-    $('.burger').toggleClass('clicked');
-    $('.left.sidebar')
-      .sidebar('toggle')
-    ;
-    // TODO: when sidebar is toggled back, also move button back to the burger
+    if (!sidebarVisible) sidebar.sidebar('toggle');
   });
 });
