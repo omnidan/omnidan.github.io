@@ -143,6 +143,17 @@
   transition: all 0.5s;
 }
 
+@media (max-width: 1150px) {
+  .projectbox {
+    max-width: 608px;
+  }
+}
+
+@media (max-width: 665px) {
+  .projectbox {
+    max-width: 304px;
+  }
+}
 
 @media (max-width: 800px) {
   .ui.intro h4 {
