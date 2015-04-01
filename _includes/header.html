@@ -24,7 +24,13 @@
     </div>
     {% if page.title %}
     <div class="sitepath">
-      <h4><a href="{{ page.url | prepend: site.baseurl }}">{{ site.title }} - {{ page.title }}</a></h4>
+      <div class="ui breadcrumb">
+      <div class="divider">~</div>
+        <a class="root section" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <div class="divider">/</div>
+        <a class="active section" href="{{ page.url | prepend: site.baseurl }}">{{ page.path }}</a>
+        <div class="divider">></div>
+      </div>
     </div>
     {% endif %}
 

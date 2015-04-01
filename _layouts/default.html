@@ -8,14 +8,15 @@
     {% include header.html %}
 
     <!-- header bar -->
-    <div class="ui breadcrumb">
+    <div class="ui headerbar">
       &nbsp;
     </div>
     <!-- /header bar -->
     <!-- content -->
     <div class="ui after-fold vertical feature segment">
       <div class="ui page grid">
-        <div class="column">
+        <div class="column content">
+          <h1>{{ page.title }}</h1>
           {{ content }}
         </div>
       </div>

@@ -45,10 +45,15 @@ body, .pusher {
 }
 
 .ui.breadcrumb {
-  background: rgb(50, 147, 199);
-  height: 120px;
-  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+}
+
+.ui.headerbar {
   width: 100%;
+  background: rgb(50, 147, 199);
+  margin: 0;
+  height: 120px;
 }
 
 .ui.introbox {
@@ -56,9 +61,9 @@ body, .pusher {
   vertical-align: middle;
 }
 
-.ui.intro a, .sitepath a {
+.ui.intro a, .ui.breadcrumb a {
   color: rgb(255, 255, 255);
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.75);
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
   -o-transition-timing-function: ease-out;
@@ -69,7 +74,7 @@ body, .pusher {
   transition: all 0.5s;
 }
 
-.ui.intro a:hover, .sitepath a:hover {
+.ui.intro a:hover, .ui.breadcrumb a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   -webkit-transition-timing-function: ease-in;
@@ -146,17 +151,21 @@ body, .pusher {
   transition: all 0.5s;
 }
 
+.burger:hover {
+  opacity: 1.0;
+}
+
 .sitepath {
   position: absolute;
   left: 125px;
   top: 42px;
 }
 
-.sitepath h4 {
+.breadcrumb {
   font-size: 2.5em;
 }
 
-.sitepath a {
+.breadcrumb > a {
   color: rgb(255, 255, 255);
   opacity: 0.8;
 }
@@ -180,6 +189,11 @@ body, .pusher {
   font-weight: 100;
 }
 
+.content {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
 @media (max-width: 1150px) {
   .projectbox {
     max-width: 608px;
@@ -199,6 +213,10 @@ body, .pusher {
 
   .ui.intro h5 {
     font-size: 2.5em;
+  }
+
+  .ui.breadcrumb {
+    font-size: 2em;
   }
 }
 
@@ -224,6 +242,23 @@ body, .pusher {
     font-size: 1.5em;
   }
 
+  .ui.breadcrumb {
+    font-size: 1.5em;
+  }
+
+  .root.section {
+    display: none !important;
+  }
+
+  .ui.stackable.grid > .sitemap.column {
+    display: none !important;
+  }
+
+  .sitepath {
+    left: 100px;
+    top: 30px;
+  }
+
   .doubling.column.statistic {
     padding: 0;
   }
@@ -232,6 +267,10 @@ body, .pusher {
     position: absolute;
     top: -20px;
     left: 10px !important;
+  }
+
+  .ui.headerbar {
+    height: 90px;
   }
 
   .avatar {
