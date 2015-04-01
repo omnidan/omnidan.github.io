@@ -1,0 +1,81 @@
+- title: novaTouch
+  href: https://touchlay.com
+  image: images/novatouch.jpg
+  tag: Business
+  headline: because the first step to your customers is an impressive presentation.
+  description: >
+    Together with the rest of the TouchLay team, we developed and designed the
+    55" interactive presentation device novaTouch.
+
+- title: TouchLay Cloud
+  href: https://touchlay.com
+  image: images/cloud.png
+  tag: Business
+  headline: the easiest way to deploy and manage apps and devices.
+  description: >
+    My team and me specifically crafted the cloud to simplify the whole software
+    development process so you can focus on making your product great.
+
+- title: coffea
+  href: https://coffea.caffeinery.org
+  image: images/coffea.jpg
+  tag: Development/Library
+  headline: event based and extensible irc client library with multi-network support.
+  description: >
+    Many modern communication systems are based on or were inspired by irc (e.g.
+    <a href="https://slack.com/">Slack</a>). This library makes writing programs
+    for irc simple.
+
+- title: coffeedonate
+  href: https://omnidan.net/coffeedonate/
+  tag: Project
+  headline: donate a cup of coffee, because coffee helps developers perform.
+  description: >
+    You can donate money with bitcoin, paypal or flattr and pick how many cups
+    of coffee you want to donate (it'll calculate the prices in EUR, USD and
+    BTC/Bitcoin)!
+
+- title: horacat
+  href: https://github.com/horacat/horacat-chrome
+  tag: Project
+  headline: simple time tracking for github issues, integrated into github.
+  description: >
+    I love github, but it lacks one function: time tracking. This chrome
+    extension adds that functionality to github and you won't even notice it's
+    not part of it!
+
+- title: git-leaf
+  href: https://github.com/omnidan/git-leaf
+  tag: Project
+  headline: simple and beautiful git trees.
+  description: >
+    git-leaf is an application that allows you to view the history of a git
+    repository in a simple and beautiful way.
+
+- title: Shift
+  href: https://omnidan.net/Shift/
+  tag: Project
+  headline: simple shift-based time scheduling for busy people.
+  description: >
+    Shift is an application that makes scheduling simple. Schedule your day in
+    shifts, automatically add breaks when they make sense, automatically sort
+    your tasks into shifts, and have your shifts ready when you wake up.
+
+- title: log-simple
+  href: https://github.com/omnidan/log-simple
+  tag: Development/Library
+  headline: super simple javascript logging based on console.log with unix terminal colors and iso timestamps.
+  description: No external dependencies, super lightweight!
+
+- title: asv
+  href: https://github.com/omnidan/asv
+  tag: Development/Tool
+  headline: <a href="https://github.com/atom/atom-shell">Atom Shell</a> version manager
+
+- title: /r/npm
+  href: https://www.reddit.com/r/npm
+  tag: Development/Community
+  headline: great and useful <a href="https://www.npmjs.com/">npm</a> (node.js) modules
+  description: >
+    A subreddit for <a href="https://www.npmjs.com/">npm</a> modules - Show off 
+    a cool/useful npm (node.js) module or promote your own!
