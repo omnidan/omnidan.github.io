@@ -10,3 +10,7 @@ github_username:  omnidan
 
 # Build settings
 markdown: kramdown
+
+# Additional modules
+gems:
+  - jekyll-sitemap

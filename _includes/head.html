@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <!-- Site Properities -->
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="Daniel Bugl">
   <meta name="keywords" content="daniel, bugl, technology, software, structure, entrepreneur, enthusiast, web, developer, designer, vienna, austria, website, homepage, touchlay, caffeinery, coffea, asv, npm, coffeedonate, novatouch" />
