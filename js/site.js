@@ -16,7 +16,7 @@ $(window).load(function () {
   $('.card').each(function () {
     var elem = this;
     $(elem).data('projectVisible', false);
-    new Waypoint({
+    var waypoint = new Waypoint({
       element: elem,
       offset: '95%',
       handler: function () {
@@ -33,6 +33,7 @@ $(window).load(function () {
         }
       }
     });
+    $(elem).data('waypoint', waypoint);
   });
 });
 
@@ -71,9 +72,10 @@ $(document).ready(function () {
 
     $('.card').each(function () {
       $(this).transition('hide');
+      $(this).data('waypoint').destroy();
     });
 
-    window.location = "#filter";
+    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 
     $('.card').each(function () {
       var tag = $(this).find('.meta').html().trim().split('/')[0];
