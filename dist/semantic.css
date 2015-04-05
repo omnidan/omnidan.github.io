@@ -2120,7 +2120,7 @@ input::selection {
 
 .ui.blue.buttons .button:active,
 .ui.blue.button:active {
-  background-color: #3370a5;
+  background-color: #3293c7;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2151,15 +2151,15 @@ input::selection {
 
 .ui.basic.blue.buttons .button:active,
 .ui.basic.blue.button:active {
-  box-shadow: 0px 0px 0px 2px #3370a5 inset !important;
-  color: #3370a5 !important;
+  box-shadow: 0px 0px 0px 2px #3293c7 inset !important;
+  color: #3293c7 !important;
 }
 
 .ui.basic.blue.buttons .active.button,
 .ui.basic.blue.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #3370a5 inset !important;
-  color: #3370a5 !important;
+  box-shadow: 0px 0px 0px 2px #3293c7 inset !important;
+  color: #3293c7 !important;
 }
 
 .ui.buttons > .basic.blue.button:not(:first-child) {
@@ -3162,7 +3162,7 @@ input::selection {
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #3370a5;
+  background-color: #3293c7;
   color: #ffffff;
   text-shadow: none;
 }

@@ -20,7 +20,6 @@ $(window).load(function () {
       element: elem,
       offset: '95%',
       handler: function () {
-        console.log('visible');
         if (!$(elem).data('projectVisible')) {
           $(elem).data('projectVisible', true);
           setTimeout(function () {
@@ -62,6 +61,31 @@ $(document).ready(function () {
     onHidden: function () {
       sidebarVisible = false;
     }
+  });
+
+  $('.basic.button').click(function () {
+    $('.basic.button').removeClass("active");
+    $(this).addClass("active");
+
+    var selectedTag = $(this).html();
+
+    $('.card').each(function () {
+      $(this).transition('hide');
+    });
+
+    window.location = "#filter";
+
+    $('.card').each(function () {
+      var tag = $(this).find('.meta').html().trim().split('/')[0];
+      if ((selectedTag === "All") || (tag === selectedTag)) {
+        $(this)
+          .transition({
+            animation : 'scale',
+            interval  : 500
+          })
+        ;
+      }
+    });
   });
 
   $('.burger').click(function () {

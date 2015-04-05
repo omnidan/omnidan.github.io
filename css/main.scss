@@ -117,6 +117,7 @@ body, .pusher {
 
 .skills {
   padding: 25px;
+  margin-bottom: 30px !important;
 }
 
 .projectbox {
@@ -220,13 +221,11 @@ body, .pusher {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .ui.intro {
-    top: 15%;
+    top: 10%;
   }
-}
 
-@media (max-width: 450px) {
   .ui.intro h3 {
     font-size: 3em;
     padding-bottom: 0;
@@ -279,5 +278,12 @@ body, .pusher {
 
   .avatar-container {
     margin-top: -110px !important;
+  }
+}
+
+
+@media (max-height: 400px) {
+  .ui.intro {
+    top: -8%;
   }
 }
