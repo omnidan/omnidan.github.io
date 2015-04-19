@@ -70,7 +70,7 @@
 - title: asv
   href: https://github.com/omnidan/asv
   tag: Development/Tool
-  headline: <a href="https://github.com/atom/atom-shell">Atom Shell</a> version manager
+  headline: <a href="https://github.com/atom/electron">Electron / Atom Shell</a> version manager
 
 - title: /r/npm
   href: https://www.reddit.com/r/npm
