@@ -45,3 +45,15 @@
 
 </div>
 <!-- /pusher -->
+
+<script type="text/javascript" src="{{ "/dist/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/dist/jquery.lazyload.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+$(function() {
+  $("img.lazy").lazyload();
+});
+</script>
+<script type="text/javascript" src="{{ "/dist/jquery-ui.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/dist/jquery.waypoints.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/dist/semantic.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
