@@ -1,6 +1,6 @@
 # Site settings
 title: Daniel Bugl
-email: daniel.bugl@touchlay.com
+email: me@omnidan.net
 description: > # this means to ignore newlines until "baseurl:"
   entrepreneur / web enthusiast / software developer from vienna, austria
 baseurl: "" # the subpath of your site, e.g. /blog/
