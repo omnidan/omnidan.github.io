@@ -26,6 +26,13 @@
     <a href="https://slack.com/">Slack</a>). This library makes writing programs
     for irc simple.
 
+- title: now
+  href: https://github.com/omnidan/now
+  tag: Social/Experiment
+  headline: simple real-time reddit/HN-inspired social network crafted with React and Meteor
+  description: >
+    Check it out at: <a href="http://now.omnidan.net/">http://now.omnidan.net/</a>
+
 - title: coffeedonate
   href: https://omnidan.net/coffeedonate/
   tag: Project
@@ -71,6 +78,16 @@
   href: https://github.com/omnidan/asv
   tag: Development/Tool
   headline: <a href="https://github.com/atom/electron">Electron / Atom Shell</a> version manager
+
+- title: coffea-telegram
+  href: https://github.com/caffeinery/coffea-telegram
+  tag: Development/Library
+  headline: telegram plugin for coffea
+
+- title: irc logbot
+  href: https://github.com/caffeinery/logbot
+  tag: Social/IRC
+  headline: simple real-time irc logbot crafted with coffea
 
 - title: /r/npm
   href: https://www.reddit.com/r/npm
