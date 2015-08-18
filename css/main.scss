@@ -6,6 +6,47 @@ body, .pusher {
   background-color: #1b1c1d !important;
 }
 
+.ui.social.labels {
+  margin: 35px 50px 0;
+  text-align: center;
+}
+
+.ui.github.blue.label, .ui.github.blue.labels .label {
+  background-color: #4078c0!important;
+  border-color: #4078c0!important;
+}
+
+.ui.twitter.teal.label, .ui.twitter.teal.labels .label {
+  background-color: #55acee!important;
+  border-color: #55acee!important;
+}
+
+.ui.twitter.teal.labels a.label:hover,
+a.ui.twitter.teal.label:hover,
+a.ui.twitter.teal.labels .label:hover {
+  background-color: #79b8e8!important;
+  border-color: #79b8e8!important;
+}
+
+.ui.facebook.blue.label, .ui.facebook.blue.labels .label {
+  background-color: #3b5998!important;
+  border-color: #3b5998!important;
+}
+
+.ui.linkedin.blue.label, .ui.linkedin.blue.labels .label {
+  background-color: #0077b5!important;
+  border-color: #0077b5!important;
+}
+
+.ui.massive.label, .ui.massive.labels .label {
+  font-size: 2rem;
+}
+
+.ui.label .social.icon {
+  margin: 0;
+  padding-right: 5px;
+}
+
 .ui.header {
   font-weight: 100;
 }
