@@ -1,0 +1,70 @@
+- name: github
+  href: https://github.com/omnidan
+  color: github blue
+  icon: github
+
+- name: twitter
+  href: https://twitter.com/DanielBugl
+  color: twitter teal
+  icon: twitter
+
+- name: facebook
+  href: https://www.facebook.com/omnidan
+  color: facebook blue
+  icon: facebook
+
+- name: google+
+  href: https://plus.google.com/+DanielBugl
+  color: google plus red
+  icon: google plus
+
+- name: linkedin
+  href: https://at.linkedin.com/pub/daniel-bugl/39/aa7/793
+  color: linkedin blue
+  icon: linkedin square
+
+- name: medium
+  href: https://medium.com/@omnidan
+  color: medium gray
+  icon: medium
+
+- name: reddit
+  href: https://www.reddit.com/user/_omnidan_
+  color: reddit gray
+  icon: reddit
+
+- name: askubuntu
+  href: https://askubuntu.com/users/8893/omnidan
+  color: ubuntu linux orange
+  icon: ubuntu linux
+
+- name: stackoverflow
+  href: https://stackoverflow.com/users/702288/omnidan
+  color: stack overflow gray
+  icon: stack overflow
+
+- name: hackernews
+  href: https://news.ycombinator.com/user?id=omnidan
+  color: hacker news orange
+  icon: hacker news
+
+- name: trello
+  href: https://trello.com/omnidan
+  color: trello blue
+  icon: trello
+
+- name: producthunt
+  href: https://www.producthunt.com/@danielbugl
+  color: producthunt orange
+
+- name: makerba.se
+  href: https://makerba.se/m/0s2kdz/danielbugl
+  color: makerbase teal
+
+- name: geekli.st
+  href: https://geekli.st/omnidan
+  color: geeklist green
+
+- name: keybase.io
+  href: https://keybase.io/omnidan
+  color: keybase gray
