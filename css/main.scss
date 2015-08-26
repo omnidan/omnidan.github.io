@@ -11,6 +11,18 @@ body, .pusher {
   text-align: center;
 }
 
+.ui.producthunt.orange.label, .ui.producthunt.orange.labels .label {
+  background-color: #da552f!important;
+  border-color: #da552f!important;
+}
+
+.ui.producthunt.orange.labels a.label:hover,
+a.ui.producthunt.orange.label:hover,
+a.ui.producthunt.orange.labels .label:hover {
+  background-color: #d66544!important;
+  border-color: #d66544!important;
+}
+
 .ui.github.blue.label, .ui.github.blue.labels .label {
   background-color: #4078c0!important;
   border-color: #4078c0!important;
