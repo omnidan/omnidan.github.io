@@ -2,6 +2,42 @@
 ---
 @charset "utf-8";
 
+/* bounce effect: from http://stackoverflow.com/a/31541354 */
+@keyframes bounce{
+   0%    { transform: translateY(0); }
+   20%   { transform: translateY(0); }
+   40%   { transform: translateY(-50%); }
+   50%   { transform: translateY(0); }
+   60%   { transform: translateY(-20%); }
+   80%   { transform: translateY(0); }
+   100%  { transform: translateY(0); }
+}
+@-webkit-keyframes bounce {
+   0%    { -webkit-transform: translateY(0); }
+   20%   { -webkit-transform: translateY(0); }
+   40%   { -webkit-transform: translateY(-50%); }
+   50%   { -webkit-transform: translateY(0); }
+   60%   { -webkit-transform: translateY(-20%); }
+   80%   { -webkit-transform: translateY(0); }
+   100%  { -webkit-transform: translateY(0); }
+}
+@-moz-keyframes bounce {
+   0%    { -moz-transform: translateY(0); }
+   20%   { -moz-transform: translateY(0); }
+   40%   { -moz-transform: translateY(-50%); }
+   50%   { -moz-transform: translateY(0); }
+   60%   { -moz-transform: translateY(-20%); }
+   80%   { -moz-transform: translateY(0); }
+   100%  { -moz-transform: translateY(0); }
+}
+
+.bounce {
+  -webkit-animation: 2000ms bounce infinite;
+  animation: 2000ms bounce infinite;
+}
+
+/* /bounce effect */
+
 body, .pusher {
   background-color: #1b1c1d !important;
 }
@@ -21,7 +57,8 @@ body, .pusher {
 }
 
 .ui.header {
-  font-weight: 100;
+  font-weight: 200;
+  font-family: 'Roboto Slab';
 }
 
 .statistic {
@@ -47,6 +84,7 @@ body, .pusher {
 
 .ui.fold {
   display: block !important;
+  position: relative;
 }
 
 .ui.intro {
@@ -110,14 +148,33 @@ body, .pusher {
 .ui.intro h4 {
   font-size: 2em;
   color: rgb(255, 255, 255);
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .ui.intro h5 {
   font-size: 3em;
   color: rgb(255, 255, 255);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   padding-top: 10px;
+}
+
+.ui.intro h5 > a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ui .chevron {
+  position: absolute;
+  bottom: 0.25em;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.left {
+  left: 1em;
+}
+
+.right {
+  right: 1em;
 }
 
 .avatar {
