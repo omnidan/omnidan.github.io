@@ -42,8 +42,21 @@ html, body {
   height: 100%;
 }
 
+pre {
+  font-family: 'Roboto Slab';
+}
+
+p {
+  line-height: 2em;
+}
+
 body, .pusher {
   background-color: #1b1c1d !important;
+}
+
+.map {
+  width: 100%;
+  margin-top: 25px;
 }
 
 .viewmore.card {

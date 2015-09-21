@@ -24,16 +24,19 @@ $(window).load(function () {
     $(elem).data('waypoint', waypoint);
   });
 
-  $(".statistic").addClass("grayscale");
-  new Waypoint({
-    element: $(".statistics"),
-    offset: '95%',
-    handler: function () {
-      setTimeout(function () {
-        $(".statistic").removeClass("grayscale");
-      }, 100);
-    }
-  });
+  var statistic = $(".statistic");
+  if (statistic.length > 0) {
+    statistic.addClass("grayscale");
+    new Waypoint({
+      element: $(".statistics"),
+      offset: '95%',
+      handler: function () {
+        setTimeout(function () {
+          $(".statistic").removeClass("grayscale");
+        }, 100);
+      }
+    });
+  }
 });
 
 $(document).ready(function () {

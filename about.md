@@ -4,4 +4,35 @@ title: About Me
 permalink: /about/
 ---
 
-Nothing here yet :)
+<h1 style="text-align: center;">Hi,</h1>
+
+<!-- avatar -->
+<div class="ui one column center aligned page grid">
+  <div class="column">
+    <img class="ui small circular image avatar" src="https://avatars0.githubusercontent.com/u/668674?v=3&amp;s=150" width="150" height="150" alt="That's me!">
+  </div>
+</div>
+<!-- /avatar -->
+
+<h1 style="text-align: center;">My name is <pre>Daniel Bugl</pre></h1>
+
+<span style="font-size: 2em;">A</span>nd I'm an entrepreneur (I founded the
+startup TouchLay) and a software developer.
+
+I love structure, especially when it's simple. Everything that
+interests me has a lot to do with structure - which is mainly Business,
+Programming and Development, but I also love making music and enjoy nature a lot
+(going for a walk, riding my bike, or just sketching ideas in my notebook outside)
+
+I spend most of my time reading articles, checking out cool and new stuff on the
+web and [working on awesome projects](/projects/).
+I [write](/articles/) and make music sometimes (the latter is more experimenting
+with synthesizers and sounds than making full tracks).
+I also love certain computer games, [dwarf fortress](https://en.wikipedia.org/wiki/Dwarf_Fortress)
+is one of my favorites. (Programmers and dwarves have *a lot* in common)
+
+{% include newsletter.html %}
+
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170129.24812898834!2d16.380059899999996!3d48.2206849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d079e5136ca9f%3A0xfdc2e58a51a25b46!2sVienna%2C+Austria!5e0!3m2!1sen!2sus!4v1442866880125" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+{% include social.html %}
