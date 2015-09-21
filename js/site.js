@@ -1,16 +1,4 @@
 $(window).load(function () {
-
-  $(".statistic").addClass("grayscale");
-  new Waypoint({
-    element: $(".statistics"),
-    offset: '95%',
-    handler: function () {
-      setTimeout(function () {
-        $(".statistic").removeClass("grayscale");
-      }, 100);
-    }
-  });
-
   // card animation
   $('.card').css('visibility', 'hidden');
   $('.card').each(function () {
@@ -34,6 +22,17 @@ $(window).load(function () {
       }
     });
     $(elem).data('waypoint', waypoint);
+  });
+
+  $(".statistic").addClass("grayscale");
+  new Waypoint({
+    element: $(".statistics"),
+    offset: '95%',
+    handler: function () {
+      setTimeout(function () {
+        $(".statistic").removeClass("grayscale");
+      }, 100);
+    }
   });
 });
 
@@ -75,7 +74,7 @@ $(document).ready(function () {
       $(this).data('waypoint').destroy();
     });
 
-    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    // $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 
     $('.card').each(function () {
       var tag = $(this).find('.meta').html().trim().split('/')[0];

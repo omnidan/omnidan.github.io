@@ -1,6 +1,7 @@
 - title: novaTouch
+  featured: true
   href: https://touchlay.com
-  image: images/novatouch.jpg
+  image: /images/novatouch.jpg
   tag: Business
   headline: because the first step to your customers is an impressive presentation.
   description: >
@@ -8,23 +9,72 @@
     55" interactive presentation device novaTouch.
 
 - title: TouchLay Cloud
+  featured: true
   href: https://touchlay.com
-  image: images/cloud.png
+  image: /images/cloud.png
   tag: Business
   headline: the easiest way to deploy and manage apps and devices.
   description: >
     My team and me specifically crafted the cloud to simplify the whole software
     development process so you can focus on making your product great.
 
+- title: redux-undo
+  featured: true
+  href: https://github.com/omnidan/redux-undo
+  image: https://pbs.twimg.com/media/CPJNf1EUwAAMPj9.png
+  tag: Development/Library
+  headline: undo/redo <b>any</b> part of your application state (redux tree)
+  description: >
+    This library provides simple undo/redo functionality for
+    <a href="https://rackt.github.io/redux/">redux</a> state containers.<br /><br />
+    <b>Protip:</b> You can try the <a href="https://github.com/omnidan/redux-undo-boilerplate">
+    redux-undo-boilerplate</a> to quickly get started with redux-undo (it takes
+    less than a minute).
+
+- title: redux-undo-boilerplate
+  featured: true
+  href: https://github.com/omnidan/redux-undo-boilerplate
+  image: https://camo.githubusercontent.com/5e7bda68cdaf3cebc401183b729aa1b55d7f3e21/687474703a2f2f692e696d6775722e636f6d2f44546e474e46452e676966
+  smallImage: true
+  tag: Development/Boilerplate
+  headline: a magical boilerplate with <a href="https://github.com/omnidan/redux-undo-boilerplate#what-happens-if-i-change-some-code">hot reloading</a> and <a href="https://github.com/omnidan/redux-undo-boilerplate#what-happens-if-i-make-a-typo--syntax-error">awesome error handling</a>
+  description: >
+     This boilerplate (barebones for a new project) uses modern web technology like
+     <a href="https://github.com/webpack/webpack">webpack</a>,
+     <a href="https://github.com/rackt/redux">redux</a>,
+     <a href="https://github.com/facebook/react">react</a> and
+     <a href="https://github.com/omnidan/redux-undo">redux-undo</a>
+
 - title: coffea
+  featured: true
   href: https://coffea.caffeinery.org
-  image: images/coffea.jpg
+  image: /images/coffea.jpg
+  smallImage: true
   tag: Development/Library
   headline: event based and extensible irc client library with multi-network support.
   description: >
     Many modern communication systems are based on or were inspired by irc (e.g.
     <a href="https://slack.com/">Slack</a>). This library makes writing programs
     for irc simple.
+
+- title: /r/npm
+  featured: true
+  href: https://www.reddit.com/r/npm
+  image: https://i.imgur.com/oejn7sI.png
+  smallImage: true
+  tag: Development/Community
+  headline: great and useful <a href="https://www.npmjs.com/">npm</a> (node.js) modules
+  description: >
+    A subreddit for <a href="https://www.npmjs.com/">npm</a> modules - Show off
+    a cool/useful npm (node.js) module or promote your own!
+
+- title: node-emoji
+  featured: true
+  href: https://github.com/omnidan/node-emoji
+  image: https://i.imgur.com/vxDtTWj.png
+  smallImage: true
+  tag: Development/Library
+  headline: simple emoji support for node.js projects
 
 - title: now
   href: https://github.com/omnidan/now
@@ -88,11 +138,3 @@
   href: https://github.com/caffeinery/logbot
   tag: Social/IRC
   headline: simple real-time irc logbot crafted with coffea
-
-- title: /r/npm
-  href: https://www.reddit.com/r/npm
-  tag: Development/Community
-  headline: great and useful <a href="https://www.npmjs.com/">npm</a> (node.js) modules
-  description: >
-    A subreddit for <a href="https://www.npmjs.com/">npm</a> modules - Show off 
-    a cool/useful npm (node.js) module or promote your own!

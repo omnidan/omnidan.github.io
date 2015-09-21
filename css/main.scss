@@ -38,11 +38,41 @@
 
 /* /bounce effect */
 
+html, body {
+  height: 100%;
+}
+
 body, .pusher {
   background-color: #1b1c1d !important;
 }
 
-.ui.social.labels {
+.viewmore.card {
+  background-color: #3293c7 !important;
+}
+
+.viewmore.card > .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.viewmore.card > .content > span {
+  color: #ffffff !important;
+  font-size: 1.5em !important;
+}
+
+.ui.projects {
+  text-align: center;
+  min-height: 500px;
+}
+
+.ui.subscription.button {
+  width: 100%;
+  text-align: center;
+}
+
+.ui.newsletter, .ui.social.labels {
   margin: 35px 50px 0;
   text-align: center;
 }
@@ -183,7 +213,7 @@ body, .pusher {
 }
 
 .card .image img {
-  height: 270px !important;
+  height: 270px;
 }
 
 .skills {

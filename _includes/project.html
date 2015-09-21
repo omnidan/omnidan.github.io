@@ -1,0 +1,20 @@
+<div class="card" itemscope itemtype="http://schema.org/Product">
+  {% if project.image %}
+  <a class="image" href="{{ project.href }}">
+    <img class="lazy" data-original="{{ project.image }}" width="290" height="270" alt="{{ project.title }} photo" itemprop="image" style="height: {% if project.smallImage %}150{% else %}270{% endif %}px;">
+  </a>
+  {% endif %}
+  <div class="content">
+    <a class="header" href="{{ project.href }}" itemprop="name">{{ project.title }}</a>
+    <span style="display: none;" itemprop="url">{{ project.href }}</span>
+    <div class="meta">
+      {{ project.tag }}
+    </div>
+    <div class="description" itemprop="description">
+      <p><i>{{ project.headline }}</i></p>
+      {% if project.description %}
+      <p>{{ project.description}}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

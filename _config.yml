@@ -2,7 +2,7 @@
 title: Daniel Bugl
 email: me@omnidan.net
 description: > # this means to ignore newlines until "baseurl:"
-  entrepreneur / web enthusiast / software developer from vienna, austria
+  entrepreneur / web enthusiast / software developer with a passion for simplicity and structure
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://omnidan.net" # the base hostname & protocol for your site
 twitter_username: DanielBugl

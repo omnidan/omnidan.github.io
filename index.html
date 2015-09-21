@@ -58,40 +58,50 @@ layout: front
 <!-- projects -->
 <div class="ui one column center aligned page grid">
   <div class="column">
-    <div class="ui buttons filter">
-      <div class="ui blue basic button active">All</div>
-      <div class="ui blue basic button">Business</div>
-      <div class="ui blue basic button">Project</div>
-      <div class="ui blue basic button">Development</div>
-      <div class="ui blue basic button">Social</div>
-    </div>
     <div class="ui cards projectbox">
       {% for project in site.data.projects %}
-      <div class="card" itemscope itemtype="http://schema.org/Product">
-        {% if project.image %}
-        <a class="image" href="{{ project.href }}">
-          <img class="lazy" data-original="{{ project.image }}" width="290" height="270" alt="{{ project.title }} photo" itemprop="image">
-        </a>
+        {% if project.featured %}
+          {% include project.html %}
         {% endif %}
-        <div class="content">
-          <a class="header" href="{{ project.href }}" itemprop="name">{{ project.title }}</a>
-          <span style="display: none;" itemprop="url">{{ project.href }}</span>
-          <div class="meta">
-            {{ project.tag }}
-          </div>
-          <div class="description" itemprop="description">
-            <p><i>{{ project.headline }}</i></p>
-            {% if project.description %}
-            <p>{{ project.description}}</p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
       {% endfor %}
+      <!-- view more -->
+      <div class="viewmore card" itemscope itemtype="http://schema.org/Product">
+        <a class="content" href="/projects/">
+          <span class="header" itemprop="name">View More</a>
+          <span style="display: none;" itemprop="url">https://omnidan.net/projects/</span>
+        </a>
+      </div>
+      <!-- /view more -->
     </div>
   </div>
 </div>
 <!-- /projects -->
+<!-- newsletter -->
+<div class="ui one column center aligned page grid">
+<div class="column">
+  <div class="ui top attached secondary segment newsletter">
+    <h2>Interested in staying up-to-date about my projects?</h2>
+    <h3>Enter your email address below and receive a free kitten* now!</h3>
+    <div id="mc_embed_signup">
+    <form action="//omnidan.us11.list-manage.com/subscribe/post?u=e353c590e28c6c957d8e729ef&amp;id=92bdce6bb4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="ui form validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll" class="fields">
+    	  <div class="thirteen wide field">
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        </div>
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_e353c590e28c6c957d8e729ef_92bdce6bb4" tabindex="-1" value=""></div>
+        <div class="three wide field">
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="ui subscription button">
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+  <div class="ui bottom attached segment">
+    <small>* Kitten is only virtual - you will not receive an actual kitten, sorry</small>
+  </div>
+</div>
+</div>
+<!-- /newsletter -->
 <!-- social -->
 <div class="ui massive circular social labels">
   {% for social in site.data.social %}
