@@ -48,6 +48,7 @@ pre {
 
 p {
   line-height: 2em;
+  text-align: justify;
 }
 
 body, .pusher {
@@ -56,7 +57,10 @@ body, .pusher {
 
 .map {
   width: 100%;
-  margin-top: 25px;
+  height: 200px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .viewmore.card {

@@ -11,21 +11,27 @@
               </div>
             </div>
             <div class="column">
-              <h5 class="ui inverted header">Development</h5>
+              <h5 class="ui inverted header">Popular Projects</h5>
               <div class="ui inverted link list">
+                <a class="item" href="https://github.com/omnidan/redux-undo">redux-undo</a>
+                <a class="item" href="https://github.com/omnidan/redux-undo-boilerplate">redux-undo-boilerplate</a>
                 <a class="item" href="https://github.com/omnidan/node-emoji">node-emoji</a>
-                <a class="item" href="https://github.com/omnidan/log-simple">log-simple</a>
                 <a class="item" href="https://github.com/caffeinery/coffea">coffea</a>
-                <a class="item" href="https://github.com/omnidan/asv">asv</a>
               </div>
             </div>
             <div class="column">
-              <h5 class="ui inverted header">Other Projects</h5>
+              <h5 class="ui inverted header">Pages</h5>
               <div class="ui inverted link list">
-                <a class="item" href="https://omnidan.net/coffeedonate/">coffeedonate</a>
-                <a class="item" href="https://github.com/horacat/horacat-chrome">horacat</a>
-                <a class="item" href="https://github.com/omnidan/git-leaf">git-leaf</a>
-                <a class="item" href="https://omnidan.net/Shift/">shift</a>
+                <a class="item" href="{{ site.baseurl }}/">
+                  Front Page
+                </a>
+                {% for page in site.pages %}
+                  {% if page.title %}
+                  <a class="item" href="{{ page.url | prepend: site.baseurl }}">
+                    {{ page.title }}
+                  </a>
+                  {% endif %}
+                {% endfor %}
               </div>
             </div>
           </div>
