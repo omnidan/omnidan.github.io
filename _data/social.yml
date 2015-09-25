@@ -72,3 +72,8 @@
 - name: ask me anything
   href: https://wiselike.com/daniel-bugl
   color: wiselike yellow
+
+- name: donate
+  href: https://gratipay.com/~omnidan/
+  color: gratipay green
+  icon: heart

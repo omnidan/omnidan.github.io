@@ -3,32 +3,63 @@
 @charset "utf-8";
 
 .ui.hacker.news.orange.label, .ui.hacker.news.orange.labels .label {
-  background-color: #ff6600!important;
-  border-color: #ff6600!important;
+  background-color: #fb9857!important;
+  border-color: #fb9857!important;
 }
 
 .ui.hacker.news.orange.labels a.label:hover,
 a.ui.hacker.news.orange.label:hover,
 a.ui.hacker.news.orange.labels .label:hover {
-  background-color: #fb8130!important;
-  border-color: #fb8130!important;
+  background-color: #f9a36b!important;
+  border-color: #f9a36b!important;
+}
+
+.ui.geeklist.green.label, .ui.geeklist.green.labels .label {
+  background-color: #7dc38e!important;
+  border-color: #7dc38e!important;
+}
+
+.ui.geeklist.green.labels a.label:hover,
+a.ui.geeklist.green.label:hover,
+a.ui.geeklist.green.labels .label:hover {
+  background-color: #8ec39b!important;
+  border-color: #8ec39b!important;
+}
+
+.ui.makerbase.teal.label, .ui.makerbase.teal.labels .label {
+  background-color: #71bfbb!important;
+  border-color: #71bfbb!important;
+}
+
+.ui.makerbase.teal.labels a.label:hover,
+a.ui.makerbase.teal.label:hover,
+a.ui.makerbase.teal.labels .label:hover {
+  background-color: #89bfbc!important;
+  border-color: #89bfbc!important;
 }
 
 .ui.trello.blue.label, .ui.trello.blue.labels .label {
-  background-color: #026aa7!important;
-  border-color: #026aa7!important;
+  background-color: #58a6d4!important;
+  border-color: #58a6d4!important;
+}
+
+.ui.trello.blue.labels a.label:hover,
+a.ui.trello.blue.label:hover,
+a.ui.trello.blue.labels .label:hover {
+  background-color: #72aacc!important;
+  border-color: #72aacc!important;
 }
 
 .ui.producthunt.orange.label, .ui.producthunt.orange.labels .label {
-  background-color: #da552f!important;
-  border-color: #da552f!important;
+  background-color: #d87559!important;
+  border-color: #d87559!important;
 }
 
 .ui.producthunt.orange.labels a.label:hover,
 a.ui.producthunt.orange.label:hover,
 a.ui.producthunt.orange.labels .label:hover {
-  background-color: #d66544!important;
-  border-color: #d66544!important;
+  background-color: #dc8971!important;
+  border-color: #dc8971!important;
 }
 
 .ui.github.blue.label, .ui.github.blue.labels .label {
