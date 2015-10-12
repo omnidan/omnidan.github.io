@@ -73,6 +73,7 @@ _I have worked with the following frameworks, libraries, etc_ (incomplete)
  * [Redux](https://rackt.github.io/redux/) (JavaScript) - I'm [a contributor](https://rackt.github.io/redux/docs/recipes/ImplementingUndoHistory.html) to this project.
  * [Node.js](https://nodejs.org/) (JavaScript)
  * [Meteor](https://www.meteor.com/) (JavaScript)
+ * [jQuery](https://jquery.com/) (JavaScript)
  * [Symfony2](https://symfony.com/) (PHP)
  * [Laravel](http://laravel.com/) (PHP)
  * [Jekyll](https://jekyllrb.com/) (Ruby)
