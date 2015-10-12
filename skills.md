@@ -6,6 +6,12 @@ permalink: /skills/
 
 # Skills
 
+## Languages
+
+ * English (fluent)
+ * German / Austrian German (fluent)
+ * Latin (basic)
+
 ## Technical languages (programming, markup, etc)
 
 ### Fluent
