@@ -27,7 +27,6 @@ _I have worked on multiple projects with these languages_
  * [PHP](https://secure.php.net/)
  * [Python](https://www.python.org/)
  * [C](https://en.wikipedia.org/wiki/C_(programming_language)) / [C++](https://en.wikipedia.org/wiki/C%2B%2B)
- * [Java](https://www.java.com/en/)
  * SQL ([MSSQL](https://www.microsoft.com/en-us/server-cloud/products/sql-server/), [MySQL](https://www.mysql.com/) and [PostgreSQL](http://www.postgresql.org/))
  * [MongoDB](https://www.mongodb.org/) - [for Node.js developers](http://university.mongodb.com/course_completion/84479f52d6894bd58180a34129991b4c)
  * [Markdown](https://daringfireball.net/projects/markdown/)
@@ -40,6 +39,7 @@ _I have worked on multiple projects with these languages_
 
 _I have worked on a few (small) projects with these languages_
 
+ * [Java](https://www.java.com/en/)
  * [Bash](https://www.gnu.org/software/bash/) / [Fish](http://fishshell.com/)
  * [SASS](http://sass-lang.com/) / [LESS](http://lesscss.org/)
  * [MIPS ASM](https://en.wikipedia.org/wiki/MIPS_instruction_set)
