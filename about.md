@@ -33,6 +33,11 @@ with synthesizers and sounds than making full tracks).
 I also love certain computer games, [dwarf fortress](https://en.wikipedia.org/wiki/Dwarf_Fortress)
 is one of my favorites. (Programmers and dwarves have *a lot* in common)
 
+I am currently studying [Business Informatics](https://www.tuwien.ac.at/en/teaching/bachelor_programs/business_informatics/)
+at [TU Wien](https://www.tuwien.ac.at/) (Technical University of Vienna) and I'm
+a technical tutor for the [Programmkonstruktion (Program Construction ~= Programming) course](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?locale=en&courseNr=185A79).
+My main job there is the development of the Multiple-Choice Exam Application.
+
 Feel free to contact me about anything - services, ideas, your projects, my
 projects, the list goes on and on - even if you just want to chat with me. Just
 message me on any social network (list is on the bottom of this page) or shoot
