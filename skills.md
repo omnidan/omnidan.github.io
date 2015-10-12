@@ -29,6 +29,7 @@ _I have worked on multiple projects with these languages_
  * [C](https://en.wikipedia.org/wiki/C_(programming_language)) / [C++](https://en.wikipedia.org/wiki/C%2B%2B)
  * [Java](https://www.java.com/en/)
  * SQL ([MSSQL](https://www.microsoft.com/en-us/server-cloud/products/sql-server/), [MySQL](https://www.mysql.com/) and [PostgreSQL](http://www.postgresql.org/))
+ * [MongoDB](https://www.mongodb.org/) - [for Node.js developers](http://university.mongodb.com/course_completion/84479f52d6894bd58180a34129991b4c)
  * [Markdown](https://daringfireball.net/projects/markdown/)
  * [LaTeX](https://www.latex-project.org/)
  * [Twig](http://twig.sensiolabs.org/)
@@ -54,12 +55,22 @@ _I haven't worked on any projects with these, but I learned them_
  * [Ruby](https://www.ruby-lang.org/)
  * [NASM](http://www.nasm.us/)
 
+## Other
+
+ * Structure / Planning
+ * Time Management
+ * Design
+ * Networking
+ * [(Social)](https://twitter.com/DanielBugl) Marketing
+ * Economy / Business - I'm [a business informatics student](/about/)
+
 ## Stack
 
 _I have worked with the following frameworks, libraries, etc_ (incomplete)
 
  * [ReactJS](https://facebook.github.io/react/) (JavaScript)
  * [Redux](https://rackt.github.io/redux/) (JavaScript) - I'm [a contributor](https://rackt.github.io/redux/docs/recipes/ImplementingUndoHistory.html) to this project.
+ * [Node.js](https://nodejs.org/) (JavaScript)
  * [Meteor](https://www.meteor.com/) (JavaScript)
  * [Symfony2](https://symfony.com/) (PHP)
  * [Laravel](http://laravel.com/) (PHP)
