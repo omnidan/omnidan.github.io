@@ -70,10 +70,13 @@ _I haven't worked on any projects with these, but I learned them_
 _I have worked with the following frameworks, libraries, etc_ (incomplete)
 
  * [ReactJS](https://facebook.github.io/react/) (JavaScript)
- * [Redux](https://rackt.github.io/redux/) (JavaScript) - I'm [a contributor](https://rackt.github.io/redux/docs/recipes/ImplementingUndoHistory.html) to this project.
+ * [Redux](https://rackt.github.io/redux/) (JavaScript) - I'm [a contributor](https://rackt.github.io/redux/docs/recipes/ImplementingUndoHistory.html) on this project.
+ * [Electron](http://electron.atom.io/) (Web)
  * [Node.js](https://nodejs.org/) (JavaScript)
  * [Meteor](https://www.meteor.com/) (JavaScript)
  * [jQuery](https://jquery.com/) (JavaScript)
+ * [socket.io](http://socket.io/) (JavaScript)
+ * [primus](https://github.com/primus/primus) (JavaScript)
  * [Symfony2](https://symfony.com/) (PHP)
  * [Laravel](http://laravel.com/) (PHP)
  * [Jekyll](https://jekyllrb.com/) (Ruby)
@@ -90,6 +93,7 @@ _I use the following tools (almost) every day_ (incomplete)
  * [git](https://git-scm.com/) / [GitHub](https://github.com/)
  * [Inbox](https://inbox.google.com/)
  * [Trello](https://trello.com/)
+ * [Calendar](https://www.apple.com/osx/apps/#calendar)
  * [Waffle.io](https://waffle.io/)
  * [Medium](https://medium.com/)
  * [Pocket](https://getpocket.com/)
