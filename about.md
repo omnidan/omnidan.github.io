@@ -43,6 +43,13 @@ projects, the list goes on and on - even if you just want to chat with me. Just
 message me on any social network (list is on the bottom of this page) or shoot
 me an email at [me@omnidan.net](mailto:me@omnidan.net).
 
+If you're into that, make sure to follow me on Twitter:
+
+<center>
+<a class="twitter-timeline" href="https://twitter.com/DanielBugl" data-widget-id="653602467775684609">Tweets by @DanielBugl</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</center>
+
 Or if you'd just like to stay up-to-date with my projects:
 
 {% include newsletter.html %}
