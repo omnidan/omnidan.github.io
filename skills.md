@@ -54,6 +54,7 @@ _I haven't worked on any projects with these, but I learned them_
  * [Haskell](https://www.haskell.org/)
  * [Ruby](https://www.ruby-lang.org/)
  * [NASM](http://www.nasm.us/)
+ * [R](https://www.r-project.org/)
 
 ## Other
 
