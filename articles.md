@@ -14,12 +14,11 @@ Oh, you don't have javascript? Just head to my medium page, then: <a href="https
   <div class="ui active loader" id="loading"></div>
   <div class="ui two column grid">
     <div class="row" id="articles">
+      {% for article in site.data.articles %}
       <div class="column">
-        <a class="m-story" data-collapsed="true" href="https://medium.com/touchlay-blog/maintaining-a-corporate-blog-on-medium-ded465ab30ef">How to Maintain a Corporate Blog on Medium</a>
+        <a class="m-story" data-collapsed="true" href="{{ article.url }}">{{ article.title }}</a>
       </div>
-      <div class="column">
-        <a class="m-story" data-collapsed="true" href="https://medium.com/@omnidan/writing-an-irc-bot-with-javascript-node-js-and-coffea-6c13aa4907e9">Writing an IRC Bot with JavaScript/Node.js and coffea</a>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
