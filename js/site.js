@@ -94,7 +94,15 @@ $(document).ready(function () {
     })
   })
 
+  function toggleSidebar () {
+    sidebar.sidebar('toggle')
+  }
+
   $('.burger').click(function () {
-    if (!sidebarVisible) sidebar.sidebar('toggle')
+    if (!sidebarVisible) toggleSidebar()
+  })
+
+  $(document).keyup(function (e) {
+    if (e.keyCode === 27 /* ESC */) toggleSidebar()
   })
 })
