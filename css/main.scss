@@ -63,6 +63,10 @@ body, .pusher {
   pointer-events: none;
 }
 
+.top {
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
 .viewmore.card {
   background-color: #3293c7 !important;
 }
