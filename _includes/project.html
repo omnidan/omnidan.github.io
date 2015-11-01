@@ -17,4 +17,19 @@
       {% endif %}
     </div>
   </div>
+  <div class="extra content">
+    {% capture sharetext %}{{ project.title }} - {{ project.headline|strip_html }} {% if project.shorthref %}{{ project.shorthref }}{% else %}{{ project.href }}{% endif %} (via omnidan.net){% endcapture %}
+    <a class="twitter" href="https://twitter.com/intent/tweet?text={{sharetext}}">
+      <i class="twitter icon"></i>
+    </a>
+    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{project.href}}">
+      <i class="facebook icon"></i>
+    </a>
+    <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{project.href}}&title={{project.title}}&summary={{project.headline|strip_html}}&source=omnidan.net">
+      <i class="linkedin icon"></i>
+    </a>
+    <a class="google plus" href="https://plus.google.com/share?url={{project.href}}">
+      <i class="google plus square icon"></i>
+    </a>
+  </div>
 </div>

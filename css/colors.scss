@@ -67,6 +67,10 @@ a.ui.producthunt.orange.labels .label:hover {
   border-color: #4078c0!important;
 }
 
+a.twitter:hover {
+  color: #55acee!important;
+}
+
 .ui.twitter.teal.label, .ui.twitter.teal.labels .label {
   background-color: #55acee!important;
   border-color: #55acee!important;
@@ -77,6 +81,10 @@ a.ui.twitter.teal.label:hover,
 a.ui.twitter.teal.labels .label:hover {
   background-color: #79b8e8!important;
   border-color: #79b8e8!important;
+}
+
+a.facebook:hover {
+  color: #3b5998!important;
 }
 
 .ui.facebook.blue.label, .ui.facebook.blue.labels .label {
@@ -91,7 +99,20 @@ a.ui.facebook.blue.labels .label:hover {
   border-color: #4a6398!important;
 }
 
+a.linkedin:hover {
+  color: #0077b5!important;
+}
+
 .ui.linkedin.blue.label, .ui.linkedin.blue.labels .label {
   background-color: #0077b5!important;
   border-color: #0077b5!important;
+}
+
+a.google.plus:hover {
+  color: #dc4b3d!important
+}
+
+.ui.google.plus.red.label, .ui.google.plus.red.labels .label {
+  background-color: #dc4b3d!important;
+  border-color: #dc4b3d!important;
 }
