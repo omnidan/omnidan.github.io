@@ -1,0 +1,3 @@
+$('.projects').masonry({
+  itemSelector: '.card'
+})

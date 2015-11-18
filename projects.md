@@ -12,7 +12,7 @@ permalink: /projects/
     <div class="ui blue basic button">Development</div>
     <div class="ui blue basic button">Social</div>
   </div>
-  <div class="ui cards projectbox">
+  <div class="ui cards projectbox projects">
     {% for project in site.data.projects %}
       {% include project.html %}
     {% endfor %}
