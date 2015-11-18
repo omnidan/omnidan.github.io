@@ -1,3 +1,3 @@
-$('.projects').masonry({
+$('.projectCards').masonry({
   itemSelector: '.card'
 })
