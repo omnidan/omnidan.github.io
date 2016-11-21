@@ -407,9 +407,14 @@ body, .pusher {
   }
 }
 
-
 @media (max-height: 400px) {
   .ui.intro {
     top: -8%;
+  }
+}
+
+@media (max-height: 650px) {
+  .avatar {
+    visibility: hidden;
   }
 }
